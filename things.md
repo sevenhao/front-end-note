@@ -35,10 +35,10 @@
         * [摇一摇切歌](http://www.itnose.net/detail/6194939.html)
         * [摇一摇并震动](http://www.itnose.net/detail/6385472.html)
         * [摇一摇事件](http://www.helloweba.com/view-blog-287.html)
- * 拖动
-  * [可拖动div](http://www.cnblogs.com/dolphinX/p/3290520.html)移动端无效
-  * [拖动div——JQuery draggable](http://jqueryui.com/draggable/)移动端无效
-  * [可拖动div](http://touch.code.baidu.com/examples.html)移动端有效
+    * 拖动
+        * [可拖动div](http://www.cnblogs.com/dolphinX/p/3290520.html)移动端无效
+        * [拖动div——JQuery draggable](http://jqueryui.com/draggable/)移动端无效
+        * [可拖动div](http://touch.code.baidu.com/examples.html)移动端有效
  * 屏幕自适应
   * [多屏适配方案](http://div.io/topic/1092)
  * 移动端手势
