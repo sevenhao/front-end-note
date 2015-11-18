@@ -27,14 +27,14 @@
 ###前端技术
 ####HTML5
 * 学习笔记
- * [HTML5设计原理](http://www.chinaz.com/design/2011/0303/162653.shtml)
- * [HTML5与移动端web学习笔记](http://segmentfault.com/a/1190000002712653)
+    * [HTML5设计原理](http://www.chinaz.com/design/2011/0303/162653.shtml)
+    * [HTML5与移动端web学习笔记](http://segmentfault.com/a/1190000002712653)
 * 事件
- * 摇一摇
-  * [html5实现摇一摇换背景图](http://www.kuaipao8.com/?p=1405)
-  * [摇一摇切歌](http://www.itnose.net/detail/6194939.html)
-  * [摇一摇并震动](http://www.itnose.net/detail/6385472.html)
-  * [摇一摇事件](http://www.helloweba.com/view-blog-287.html)
+    * 摇一摇
+        [html5实现摇一摇换背景图](http://www.kuaipao8.com/?p=1405)
+        * [摇一摇切歌](http://www.itnose.net/detail/6194939.html)
+        * [摇一摇并震动](http://www.itnose.net/detail/6385472.html)
+        * [摇一摇事件](http://www.helloweba.com/view-blog-287.html)
  * 拖动
   * [可拖动div](http://www.cnblogs.com/dolphinX/p/3290520.html)移动端无效
   * [拖动div——JQuery draggable](http://jqueryui.com/draggable/)移动端无效
