@@ -6,6 +6,7 @@
 * [w3school](http://www.w3school.com.cn/)   简单易懂的Web技术教程，可用于入门
 * [ 菜鸟教程](http://www.runoob.com/)     简单易懂的Web技术教程
 * [Html5 JavaScript API](http://html5index.org/)   HTML 5 JavaScript API
+* [w3cplus](http://www.w3cplus.com/)   w3cplus简单易懂的Web技术教程
 
 
 ###Web标准
@@ -17,6 +18,8 @@
 * 免费CDN
   * [开放静态文件](http://staticfile.org/)  
   * [php中文手册](http://php.net/manual/zh/)
+  * [CSS3在线手册](http://www.php100.com/manual/css3_0/box-shadow.shtml)
+  
 * 图片素材
   * [图片素材](https://www.pexels.com/popular-photos/#content) 
   * [世界知名品牌颜色收集网](http://brandcolors.net/)
@@ -72,15 +75,60 @@
     * [html5 audio音频播放全解析](http://www.open-open.com/lib/view/open1407401112973.html)
 
 ####CSS
+* [CSS3手册——CSS3 Click Chart](http://css3clickchart.com/#box-sizing）
+* [CSS3在线手册](http://www.php100.com/manual/css3_0/box-shadow.shtml)
+
+* [CSS3生成渐变——CSS3 Gradient](http://www.w3cplus.com/node/44)
+* [钟表秒针UI](http://codepen.io/jon-walstedt/pen/qbjEu)
+* [书本翻页效果](http://codepen.io/fivera/pen/rHigj)
+* [text-overflow:ellipsis的巧妙运用](http://blog.sina.com.cn/s/blog_53d27b3a0100veuc.html)
+* [如何停止CSS3的动画？](http://www.cnblogs.com/yexiaochai/p/3430276.html)
+* [Logos In Pure CSS](http://www.bchanx.com/logos-in-pure-css-demo)
+
+* 布局
+    * [固定宽度布局解决方案](http://www.w3cplus.com/solution/layout/layout.html)
+    * [响应式设计的未来——Flexbox](http://www.w3cplus.com/css3/responsive-design-of-the-future-with-flexbox.html)
+    * [哪种布局更适合你](http://www.68design.net/Web-Guide/Experience/44414-1.html)固定 vs. 流动 vs. 弹性：哪种布局更适合你？
+    * [CSS浮动(float,clear)通俗讲解](http://www.imooc.com/article/1133)
+
+* CSSS Loading
+    * [loading效果——Single Element CSS Spinners](http://projects.lukehaas.me/css-loaders/#load1)
+    * [ CSS3 实现超炫的 Loading（加载）动画效果](http://www.cnblogs.com/lhb25/archive/2013/12/28/loading-spinners-animated-with-css3.html)
+    * [CSS3 Loading（加载）效果](http://www.jb51.net/css/186643.html)
+    * [CSS3 Loading](http://codepen.io/abgne-tw/pen/Knxvo)
+
+* CSS tab、手风琴效果、sideMenu等菜单特效
+    * [CSS 手风琴效果](http://codepen.io/jlalovi/pen/skeud)
+    * [纯css3手风琴效果2](http://www.w3cplus.com/demo/398.html)
+    * [手风琴效果](http://codepen.io/darielnoel/full/qvGEb/)
+    * [纯css3制作常见特效之accordion手风琴效果](http://www.w3cplus.com/solution/css3effect/accordion.html#content4)
+    * [纯css3制作常见特效之tabs选项卡效果](http://www.w3cplus.com/solution/css3effect/tabs.html#box3)
+    * [HTML5/CSS3实现侧边栏收放——sideMenu](http://keleyi.com/a/bjac/7h7u8wq3.htm)HTML5/CSS3实现侧边栏收放
+    * [20款Responsive Menu教程](http://www.w3cplus.com/source/20-useful-responsive-menu-navigation-tutorials.html)
+    * [Blur Menu with CSS3 Transitions](http://tympanus.net/Tutorials/BlurMenu/index.html)
+
+* 单选或多选框
+    * [多选框](http://codepen.io/larrygeams/pen/sutec)
+    * [单选和多选框](http://codepen.io/elmahdim/pen/JFejy)
+
+* CSS3旋转——transition
+    * [CSS3旋转——transition](http://jsfiddle.net/ghWBx/)
+
+* CSS3 颜色选择器
+    * [Tiny Colorpicker](http://baijs.com/tinycolorpicker/)
+    * [CSS <color>颜色知识](http://www.zhangxinxu.com/wordpress/2015/07/know-css1-css3-color/)
 
 ####JS
 
 ####插件
+* 图片浏览
+    * [ Lightbox](http://lokeshdhakar.com/projects/lightbox2/#examples) Lightbox 应该是最流行的图片浏览效果
 
 
 ####优化
 * [移动H5前端性能优化指南](http://mp.weixin.qq.com/s?__biz=MTEwNTM0ODI0MQ==&mid=211118361&idx=1&sn=6fbd14cd905ffca677aa89d31a343eaa&scene=5#rd)
 * [移动时代的前端加密 ](http://div.io/topic/1220)
+* [浅淡HTML5移动Web开发](http://sc.chinaz.com/info/130410113358.htm)
 
 
 ##在线工具
