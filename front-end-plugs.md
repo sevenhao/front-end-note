@@ -6,41 +6,40 @@
       * [图片剪裁——Cropper](http://fengyuanchen.github.io/cropper/)
 
 ##滑动触摸插件
+* Swiper——移动端触摸滑动插件
+      * [Swiper中文网](http://www.swiper.com.cn/)
+      * [Swiper](http://www.idangero.us/swiper/demos/#.VlQpDeyqqkq)
+      * [Swiper中文网](http://www.swiper.com.cn/api/index.html)
 
-   * Swiper——移动端触摸滑动插件
-         * [Swiper中文网](http://www.swiper.com.cn/)
-         * [Swiper](http://www.idangero.us/swiper/demos/#.VlQpDeyqqkq)
-         * [Swiper中文网](http://www.swiper.com.cn/api/index.html)
-   
-   
-   * TouchSlide——纯javascript打造的触屏滑动特效插件
-         * [TouchSlide中文网](http://www.superslide2.com/TouchSlide/)
-         * [TouchSlide案例](http://www.superslide2.com/TouchSlide/howToUse.html)
-         * [touchSlider jQuery Plugin](http://www.mobilizetoday.com/freebies/touchslider)
-         * [关于jQuery 插件 Touchslider](http://www.tuicool.com/articles/bIJ7ry)
-         * [touchslider-github](https://github.com/qiqiboy/touchslider)
-   
-   * iSlider
-         * [iSlider 中文Demo](http://be-fe.github.io/iSlider/demo/)
-         * [iSlider github](https://github.com/peunzhang/iSlider)
-         * [iSlider 中文文档](https://github.com/BE-FE/iSlider/blob/master/README_Chinese.md)
-   
-   
-   * Tiny Circleslider ：一个轻量级的环形滑块/旋转木马jQuery插件
-         * [Tiny Circleslider](http://www.open-open.com/lib/view/open1349583827572.html)
-         * [tinycircleslider](http://baijs.com/tinycircleslider/)
-   
-   
-   * 下拉、上拉
-         * IScroll
-               * [IScroll实例](http://www.wglong.com/index/demos/pullDownRefresh/cubiq-iscroll/index.html)
-               * [解决IScroll疑难杂症](http://www.cnblogs.com/yexiaochai/p/3764503.html)
-               
-         * [Jquery 滚动动态加载](http://www.techug.com/jquery)
-   
 
-   * 单页滚动
-         * [jQuery单页滚动插件pagePiling.js](http://www.jq22.com/jquery-info573)
+* TouchSlide——纯javascript打造的触屏滑动特效插件
+      * [TouchSlide中文网](http://www.superslide2.com/TouchSlide/)
+      * [TouchSlide案例](http://www.superslide2.com/TouchSlide/howToUse.html)
+      * [touchSlider jQuery Plugin](http://www.mobilizetoday.com/freebies/touchslider)
+      * [关于jQuery 插件 Touchslider](http://www.tuicool.com/articles/bIJ7ry)
+      * [touchslider-github](https://github.com/qiqiboy/touchslider)
+   
+   
+* iSlider
+      * [iSlider 中文Demo](http://be-fe.github.io/iSlider/demo/)
+      * [iSlider github](https://github.com/peunzhang/iSlider)
+      * [iSlider 中文文档](https://github.com/BE-FE/iSlider/blob/master/README_Chinese.md)
+
+   
+* Tiny Circleslider ：一个轻量级的环形滑块/旋转木马jQuery插件
+      * [Tiny Circleslider](http://www.open-open.com/lib/view/open1349583827572.html)
+      * [tinycircleslider](http://baijs.com/tinycircleslider/)
+
+   
+* 下拉、上拉
+      * [IScroll实例](http://www.wglong.com/index/demos/pullDownRefresh/cubiq-iscroll/index.html)
+      * [解决IScroll疑难杂症](http://www.cnblogs.com/yexiaochai/p/3764503.html)
+      * [Jquery 滚动动态加载](http://www.techug.com/jquery)
+   
+* 单页滚动
+      * [jQuery单页滚动插件pagePiling.js](http://www.jq22.com/jquery-info573)
+      * [解决IScroll疑难杂症](http://www.cnblogs.com/yexiaochai/p/3764503.html)
+      * [Jquery 滚动动态加载](http://www.techug.com/jquery)   
 
    
    * 拖动插件
