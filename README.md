@@ -230,5 +230,5 @@
  * [CSS 小工具集合](http://linxz.github.io/tianyizone/)
 
 
-####[插件](https://github.com/sevenhao/front-end-note/blob/master/front-end-plugs)
+####[插件](https://github.com/sevenhao/front-end-note/blob/master/front-end-plugs.md)
 
