@@ -162,7 +162,7 @@
     * [奇技淫巧之JavaScript篇](http://www.imooc.com/article/1545)
     * [按位操作符](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Bitwise_OR)
     * [闭包](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Closures)
-    * [深入理解javascript原型和闭包系列]（http://www.cnblogs.com/wangfupeng1988/p/4001284.html）
+    * [深入理解javascript原型和闭包系列](http://www.cnblogs.com/wangfupeng1988/p/4001284.html)
     
     * [JavaScript笔试题](http://blog.jobbole.com/78738/)
     * [js 文件中，如何插入其它 js 、 css 文件](http://blog.csdn.net/lmn13/article/details/6445400)
@@ -194,10 +194,7 @@
   * [jquery 简单弹出层](http://www.imooc.com/wenda/detail/7486)
   * [滚动到底动态加载数据](http://www.imooc.com/article/2076)
 
-####插件
-* 图片浏览
-    * [ Lightbox](http://lokeshdhakar.com/projects/lightbox2/#examples) Lightbox 应该是最流行的图片浏览效果
-    * [HTML5实现屏幕手势解锁](http://www.alloyteam.com/2015/07/html5-shi-xian-ping-mu-shou-shi-jie-suo/#rd)
+
 
 
 ####优化
@@ -231,4 +228,7 @@
  * [10 个超棒的 CSS3 代码生成工具](http://www.imooc.com/article/1443)
  * [CSS 在线生成工具——enjoycss](http://enjoycss.com/)
  * [CSS 小工具集合](http://linxz.github.io/tianyizone/)
+
+
+####[插件](https://github.com/sevenhao/front-end-note/blob/master/front-end-plugs)
 
