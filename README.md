@@ -91,7 +91,7 @@
     * [html5 audio音频播放全解析](http://www.open-open.com/lib/view/open1407401112973.html)
  
  * SVG
-    * [理解SVG transform坐标变换]http://www.zhangxinxu.com/wordpress/2015/10/understand-svg-transform/
+    * [理解SVG transform坐标变换](http://www.zhangxinxu.com/wordpress/2015/10/understand-svg-transform/)
  
  * 页面Demo
     * [用 CSS 实现三角形与平行四边形](http://jerryzou.com/posts/use-css-to-paint-triangle-and-parallelogram/)
@@ -102,7 +102,7 @@
     * 
 
 ####CSS
-* [CSS3手册——CSS3 Click Chart](http://css3clickchart.com/#box-sizing）
+* [CSS3手册——CSS3 Click Chart](http://css3clickchart.com/#box-sizing)
 * [CSS3在线手册](http://www.php100.com/manual/css3_0/box-shadow.shtml)
 * [20个实用便捷的CSS3工具、库及实例](http://www.imooc.com/article/1286)
 
