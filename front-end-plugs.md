@@ -34,7 +34,7 @@
    * 下拉、上拉
          * IScroll
                * [IScroll实例](http://www.wglong.com/index/demos/pullDownRefresh/cubiq-iscroll/index.html)
-               * [【IScroll深入学习】解决IScroll疑难杂症](http://www.cnblogs.com/yexiaochai/p/3764503.html)
+               * [解决IScroll疑难杂症](http://www.cnblogs.com/yexiaochai/p/3764503.html)
                
          * [Jquery 滚动动态加载](http://www.techug.com/jquery)
    
