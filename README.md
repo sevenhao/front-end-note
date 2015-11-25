@@ -1,5 +1,9 @@
 # Web前端各类资料网址收藏
 
+##[插件](https://github.com/sevenhao/front-end-note/blob/master/front-end-plugs.md)
+##[框架](https://github.com/sevenhao/front-end-note/blob/master/front-end-frame.md)
+##[博客](https://github.com/sevenhao/front-end-note/blob/master/front-end-blogs.md)
+
 ##技术网站
 ###基础教程
 
@@ -231,8 +235,4 @@
  * [CSS 小工具集合](http://linxz.github.io/tianyizone/)
  * [浏览器同步测试工具——Browsersync](http://www.browsersync.cn/#install)
 
-
-####[插件](https://github.com/sevenhao/front-end-note/blob/master/front-end-plugs.md)
-####[框架](https://github.com/sevenhao/front-end-note/blob/master/front-end-frame.md)
-####[博客](https://github.com/sevenhao/front-end-note/blob/master/front-end-blogs.md)
 
