@@ -229,6 +229,7 @@
  * [10 个超棒的 CSS3 代码生成工具](http://www.imooc.com/article/1443)
  * [CSS 在线生成工具——enjoycss](http://enjoycss.com/)
  * [CSS 小工具集合](http://linxz.github.io/tianyizone/)
+ * [浏览器同步测试工具——Browsersync](http://www.browsersync.cn/#install)
 
 
 ####[插件](https://github.com/sevenhao/front-end-note/blob/master/front-end-plugs.md)
