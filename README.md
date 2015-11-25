@@ -103,7 +103,11 @@
     * [书本翻页效果](http://codepen.io/fivera/pen/rHigj)
     * [Logos In Pure CSS](http://www.bchanx.com/logos-in-pure-css-demo)
     * [Login](http://www.instantshift.com/2015/10/02/free-html5-css3-login-signup-forms/)
-    * 
+ 
+  
+ * 模板
+    * [todo 模板](http://flatfull.com/themes/todo/dashboard-2.html) 
+    * [模板之家](http://www.cssmoban.com/tags.asp?n=Bootstrap)
 
 ####CSS
 * [CSS3手册——CSS3 Click Chart](http://css3clickchart.com/#box-sizing)
@@ -136,10 +140,15 @@
     * [纯css3手风琴效果2](http://www.w3cplus.com/demo/398.html)
     * [手风琴效果](http://codepen.io/darielnoel/full/qvGEb/)
     * [纯css3制作常见特效之accordion手风琴效果](http://www.w3cplus.com/solution/css3effect/accordion.html#content4)
+    
     * [纯css3制作常见特效之tabs选项卡效果](http://www.w3cplus.com/solution/css3effect/tabs.html#box3)
+    
     * [HTML5/CSS3实现侧边栏收放——sideMenu](http://keleyi.com/a/bjac/7h7u8wq3.htm)HTML5/CSS3实现侧边栏收放
+    
     * [20款Responsive Menu教程](http://www.w3cplus.com/source/20-useful-responsive-menu-navigation-tutorials.html)
     * [Blur Menu with CSS3 Transitions](http://tympanus.net/Tutorials/BlurMenu/index.html)
+    
+    * [菜单动效css-dock-menu](http://www.17sucai.com/preview/63762/2014-01-05/css-dock-menu/demo.html)
 
 * 单选、多选框、下拉选择
     * [多选框](http://codepen.io/larrygeams/pen/sutec)
@@ -151,7 +160,8 @@
     * [CSS radar animation 雷达扫描效果](http://codepen.io/airen/pen/MwZBOB)
     * [CSS3 动画手册](http://isux.tencent.com/css3/index.html)
     * [多屏复杂动画CSS技巧三则](http://isux.tencent.com/css-animation-skills.html)
-    * 
+    * [纯CSS3生成的走马灯效果](http://www.gbtags.com/gb/rtreplayerpreview/96.htm)
+    
 
 * CSS3 颜色选择器
     * [Tiny Colorpicker](http://baijs.com/tinycolorpicker/)
@@ -196,8 +206,38 @@
 
 ##### Jquery
 * 基础
+  * [jQuery API 中文文档](http://www.jquery123.com/)
+  * [jQuery API中文文档](http://www.css88.com/jqapi-1.9/category/ajax/shorthand-methods/)
+  * [jquery 在线手册](http://www.hemin.cn/jq/)
+  * [jquery 在线手册](http://www.runoob.com/manual/jquery/) 
+  * [jQuery - 添加元素](http://www.w3school.com.cn/jquery/jquery_dom_add.asp)
   * [jquery 简单弹出层](http://www.imooc.com/wenda/detail/7486)
   * [滚动到底动态加载数据](http://www.imooc.com/article/2076)
+  * [MINIJS – 专为简洁而生的JQUERY插件套装](http://www.minijs.com/)
+  * [JQUERY(JS)入门到精通视频教程](http://www.luobo360.com/course/284)
+
+* Ajax
+  * [Jquery中AJAX参数详细介绍](http://www.cnblogs.com/qiufuwu618/archive/2012/12/20/2826190.html) 
+  * [Ajax 菜鸟教程runoob](http://www.runoob.com/jquery/jquery-ref-ajax.html)
+  * [jquery ajax中success与complete的执行顺序](http://q.cnblogs.com/q/27880/)
+
+
+* 动画效果及页面特效
+  * [滚动触发的翻转式文字引用效果](http://www.gbtags.com/gb/share/3844.htm) 
+  
+  
+  * [仿腾讯微博效果](http://www.17sucai.com/preview/59804/2013-12-10/%E4%BB%BF%E8%85%BE%E8%AE%AF%E5%BE%AE%E5%8D%9A%E6%95%88%E6%9E%9C/demo.html)
+  * [京东新版侧栏jquery导航](http://www.17sucai.com/preview/27774/2013-12-11/%E4%BA%AC%E4%B8%9C%E6%96%B0%E7%89%88%E4%BE%A7%E6%A0%8Fjquery%E5%AF%BC%E8%88%AA/index.html)
+  * [jquery商城红色分类导航](http://www.17sucai.com/preview/27774/2013-12-07/jquery%E5%95%86%E5%9F%8E%E7%BA%A2%E8%89%B2%E5%88%86%E7%B1%BB%E5%AF%BC%E8%88%AA/index.html#)
+  * [jQuery实现加入购物车飞入动画效果](http://www.helloweba.com/view-blog-294.html)
+
+* 日期插件
+  * [日历插件——mobiscroll](http://www.mobiscroll.com/)
+  * [JQM 日期插件 mobiscroll Demo](http://www.wglong.com/main/artical!details?id=11)
+
+
+* 多点触控插件
+  * [11 个处理触摸事件和多点触摸的 JS 库](http://www.oschina.net/news/29936/11-multi-touch-and-touch-events-javascript-libraries)
 
 
 
@@ -223,6 +263,7 @@
  * [jsfiddle](http://jsfiddle.net/)
  * [jsbin](http://jsbin.com/)
  * [在线展示JSrunjs](http://runjs.cn/)
+ * [建站平台](http://www.gbtags.com/gb/share/3896.htm)
 
 * HTML5页面创作
  * [HTML5页面创作maka](http://www.maka.im/home/case.html) 
