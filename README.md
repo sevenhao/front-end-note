@@ -110,6 +110,7 @@
 * [text-overflow:ellipsis的巧妙运用](http://blog.sina.com.cn/s/blog_53d27b3a0100veuc.html)
 * [如何停止CSS3的动画？](http://www.cnblogs.com/yexiaochai/p/3430276.html)
 * [12条鲜有人知的css事实](http://tgideas.qq.com/webplat/info/news_version3/804/7104/7106/m5723/201509/376300.shtml)
+* [推荐的CSS属性书写顺序](http://blog.csdn.net/sykent/article/details/7862172)
 
 * 布局
     * [固定宽度布局解决方案](http://www.w3cplus.com/solution/layout/layout.html)
