@@ -50,22 +50,24 @@
 
 
 ##图表控件Chart
-   * highcharts
-         * [用Highcharts轻松构建交互性图表](http://blog.fens.me/tag/grunt/)
-   
-   * 表格插件
-         * [推荐18款非常棒的 jQuery 表格插件](http://www.cnblogs.com/lhb25/archive/2011/04/10/jquery-table-plugin.html) 
-         * [20个非常有用的jQuery表格插件](http://www.iteye.com/news/21050)
-   
-   
-   * 分页插件
-         * [jQuery 分页插件 jPages 使用](http://blog.csdn.net/leixiaohua1020/article/details/12650563) 
-         * [layPage是一款多功能的js分页组件](http://laypage.layui.com/)
+* highcharts
+    * [用Highcharts轻松构建交互性图表](http://blog.fens.me/tag/grunt/)
+
+
+* 表格插件
+    * [推荐18款非常棒的 jQuery 表格插件](http://www.cnblogs.com/lhb25/archive/2011/04/10/jquery-table-plugin.html) 
+    * [20个非常有用的jQuery表格插件](http://www.iteye.com/news/21050)
+
+
+* 分页插件
+    * [jQuery 分页插件 jPages 使用](http://blog.csdn.net/leixiaohua1020/article/details/12650563) 
+    * [layPage是一款多功能的js分页组件](http://laypage.layui.com/)
 
 
 ##时间选择
-  * 日历控件
-         * [日历](http://codepen.io/Yingkx/pen/gaPyJR)
+* 日历控件
+    * [日历](http://codepen.io/Yingkx/pen/gaPyJR)
+
 
 * D3——最流行的可视化库之一,它被很多其他的表格插件所使用
       * [D3js](http://d3js.org/)
