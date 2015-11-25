@@ -42,10 +42,10 @@
       * [Jquery 滚动动态加载](http://www.techug.com/jquery)   
 
    
-   * 拖动插件
-         * [dragdealer](http://skidding.github.io/dragdealer/)
-         * [dragula](http://bevacqua.github.io/dragula/)
-         * [可拖动div](http://touch.code.baidu.com/examples.html)移动端有效
+* 拖动插件
+    * [dragdealer](http://skidding.github.io/dragdealer/)
+    * [dragula](http://bevacqua.github.io/dragula/)
+    * [可拖动div](http://touch.code.baidu.com/examples.html)移动端有效
 
 
 
@@ -64,8 +64,8 @@
 
 
 ##时间选择
-      * 日历控件
-            * [日历](http://codepen.io/Yingkx/pen/gaPyJR)
+  * 日历控件
+         * [日历](http://codepen.io/Yingkx/pen/gaPyJR)
 
 * D3——最流行的可视化库之一,它被很多其他的表格插件所使用
       * [D3js](http://d3js.org/)
