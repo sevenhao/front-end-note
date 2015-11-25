@@ -4,6 +4,8 @@
       * [Lightbox](http://lokeshdhakar.com/projects/lightbox2/#examples) Lightbox 应该是最流行的图片浏览效果
       * [HTML5实现屏幕手势解锁](http://www.alloyteam.com/2015/07/html5-shi-xian-ping-mu-shou-shi-jie-suo/#rd)
       * [图片剪裁——Cropper](http://fengyuanchen.github.io/cropper/)
+      * [fancyBox Demo](http://fancyapps.com/fancybox/demo/)
+      * [fancyBox](http://fancyapps.com/fancybox/#examples)
 
 ##滑动触摸插件
 * Swiper——移动端触摸滑动插件
@@ -47,6 +49,10 @@
     * [dragula](http://bevacqua.github.io/dragula/)
     * [可拖动div](http://touch.code.baidu.com/examples.html)移动端有效
 
+* 滑动效果
+    * [滑动效果](http://www.cnblogs.com/sky000/archive/2012/02/23/2364536.html)
+    * [滑动效果Demo](http://jikeytang.github.io/slide/06/index.html)
+
 
 
 ##图表控件Chart
@@ -79,3 +85,21 @@
 
 * 响应式站点框架
       * [Skel.js用于创建响应式站点的前端框架](http://www.uedsc.com/skel-js.html)
+      * [HTML5 Article Structure with hNews](https://css-tricks.com/snippets/html/html5-article-structure-with-hnews/)
+
+
+* 进度条
+      * [超酷HTML5进度条jQuery插件](http://www.gbtags.com/technology/democenter/20120619jquery-plugin-percentageloader/index.html) 
+      * [noUiSlider](http://refreshless.com/nouislider/examples/)
+
+
+* 选择插件
+      * [select —— DropKick.js](http://robdel12.github.io/DropKick/) 
+      * [select —— Selectivity.js](http://arendjr.github.io/selectivity/)
+      * [select](https://select2.github.io/examples.html)
+      * [Multiple Select](http://wenzhixin.net.cn/p/multiple-select/docs/#the-basics1)
+      * [switch](http://abpetkov.github.io/switchery/)
+
+
+* 对话框
+      * [对话框——artDialog](http://aui.github.io/artDialog/doc/index.html#quickref-basic) 
