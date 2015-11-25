@@ -233,4 +233,6 @@
 
 
 ####[插件](https://github.com/sevenhao/front-end-note/blob/master/front-end-plugs.md)
+####[框架](https://github.com/sevenhao/front-end-note/blob/master/front-end-frame.md)
+####[博客](https://github.com/sevenhao/front-end-note/blob/master/front-end-blogs.md)
 
