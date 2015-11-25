@@ -101,5 +101,6 @@
       * [switch](http://abpetkov.github.io/switchery/)
 
 
-* 对话框
+* 弹出框
       * [对话框——artDialog](http://aui.github.io/artDialog/doc/index.html#quickref-basic) 
+      * [JS alert 弹出框](http://www.cnblogs.com/NNUF/archive/2012/04/26/2471120.html)
