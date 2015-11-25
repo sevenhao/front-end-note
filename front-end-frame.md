@@ -59,6 +59,9 @@
 * highcharts
     * [用Highcharts轻松构建交互性图表](http://blog.fens.me/tag/grunt/)
 
+* fusioncharts
+    * [fusioncharts图表](http://www.fusioncharts.com/)
+
 
 * 表格插件
     * [推荐18款非常棒的 jQuery 表格插件](http://www.cnblogs.com/lhb25/archive/2011/04/10/jquery-table-plugin.html) 
