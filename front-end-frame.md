@@ -1,102 +1,40 @@
 # Web前端各类框架集锦
 
 * Bootstrap
-      * [Bootstrap](http://www.bootcss.com/) 
-      * 
+      * [Bootstrap中文网](http://www.bootcss.com/) 
+      * [Bootstrap](http://www.bootcss.com/p/bootstrap-v3/index.html)
+      * [Bootstrap 生成图标](http://www.runoob.com/try/demo_source/bootstrap-glyph-customization.htm)
+      * [runoob Bootstrap中文教程](http://www.runoob.com/bootstrap/bootstrap-tutorial.html)
+      * [Bootstrap 组件 - 按钮组与下拉按钮](http://blog.csdn.net/zjn0430/article/details/8547850)
+      * [Bootstrap主题网站](http://pikock.github.io/bootstrap-magic/)
+      * [Bootstrap 栅格系统](http://www.cnblogs.com/linjiqin/p/3559800.html)
+      * [stylebootstrap](http://stylebootstrap.info/#body)
+      * [全局CSS样式](http://v3.bootcss.com/css/)
+      * [Bootstrap Theme](http://v3.bootcss.com/examples/theme/)
+      * [jQuery Mobile Twitter Bootstrap](http://andymatthews.net/code/jQuery-Mobile-Bootstrap-Theme/nav.html)
 
-##滑动触摸插件
-* Swiper——移动端触摸滑动插件
-      * [Swiper中文网](http://www.swiper.com.cn/)
-      * [Swiper](http://www.idangero.us/swiper/demos/#.VlQpDeyqqkq)
-      * [Swiper中文网](http://www.swiper.com.cn/api/index.html)
+
+* Sass
+      * [Sass 参考手册 | Sass 中文文档](http://sass.bootcss.com/docs/sass-reference/)
+      * [Sass Guidelines中文版本](https://github.com/W3cplus/sass-guidelines)
 
 
-* TouchSlide——纯javascript打造的触屏滑动特效插件
-      * [TouchSlide中文网](http://www.superslide2.com/TouchSlide/)
-      * [TouchSlide案例](http://www.superslide2.com/TouchSlide/howToUse.html)
-      * [touchSlider jQuery Plugin](http://www.mobilizetoday.com/freebies/touchslider)
-      * [关于jQuery 插件 Touchslider](http://www.tuicool.com/articles/bIJ7ry)
-      * [touchslider-github](https://github.com/qiqiboy/touchslider)
+* ionic
+      * [ionic官网](http://ionicframework.com/)
+      * [ionic 中文网站](http://www.ionicframework.net/)
+      * [ionic github](https://github.com/driftyco)
+      * [ionic button](http://codepen.io/shprink/pen/HghBw)
+      * [ionic slide](http://codepen.io/anon/pen/cACsh)
+      * [Accordion List](http://codepen.io/anon/pen/WbvKNX)
+      * [Checkboxes](http://codepen.io/ionic/pen/hqcju)
+      * [Ionic List Directive](http://codepen.io/ionic/pen/JsHjf)
+      * [ionic 中文教程](http://www.haomou.net/2014/10/06/2014_ionic_learn/)
+      * [ionicframework案例第一堂/](http://ngionic.com/2014/12/ionicframework%E6%A1%88%E4%BE%8B%E7%AC%AC%E4%B8%80%E5%A0%82/)
+      * [ionic Demo](http://ngionic.com/api/ionic/demos/ionic-multip-filter/#/customer)
+      * [ionic 中文社区](http://ionichina.com/)
+      * [使用ionic+angular+phonegap开发APP入门](http://ju.outofmemory.cn/entry/104361)
+      * [Ionic(ionicframework)一款接近原生的Html5移动App开发框架](http://www.ionic.wang/js_doc-index-id-2.html)
+      * [runoob ionic](http://www.runoob.com/ionic/ionic-ion-radio.html)
+      
    
    
-* iSlider
-      * [iSlider 中文Demo](http://be-fe.github.io/iSlider/demo/)
-      * [iSlider github](https://github.com/peunzhang/iSlider)
-      * [iSlider 中文文档](https://github.com/BE-FE/iSlider/blob/master/README_Chinese.md)
-
-   
-* Tiny Circleslider ：一个轻量级的环形滑块/旋转木马jQuery插件
-      * [Tiny Circleslider](http://www.open-open.com/lib/view/open1349583827572.html)
-      * [tinycircleslider](http://baijs.com/tinycircleslider/)
-
-   
-* 下拉、上拉
-      * [IScroll实例](http://www.wglong.com/index/demos/pullDownRefresh/cubiq-iscroll/index.html)
-      * [解决IScroll疑难杂症](http://www.cnblogs.com/yexiaochai/p/3764503.html)
-      * [Jquery 滚动动态加载](http://www.techug.com/jquery)
-   
-* 单页滚动
-      * [jQuery单页滚动插件pagePiling.js](http://www.jq22.com/jquery-info573)
-      * [解决IScroll疑难杂症](http://www.cnblogs.com/yexiaochai/p/3764503.html)
-      * [Jquery 滚动动态加载](http://www.techug.com/jquery)   
-
-   
-* 拖动插件
-    * [dragdealer](http://skidding.github.io/dragdealer/)
-    * [dragula](http://bevacqua.github.io/dragula/)
-    * [可拖动div](http://touch.code.baidu.com/examples.html)移动端有效
-
-* 滑动效果
-    * [滑动效果](http://www.cnblogs.com/sky000/archive/2012/02/23/2364536.html)
-    * [滑动效果Demo](http://jikeytang.github.io/slide/06/index.html)
-
-
-
-##图表控件Chart
-* highcharts
-    * [用Highcharts轻松构建交互性图表](http://blog.fens.me/tag/grunt/)
-
-
-* 表格插件
-    * [推荐18款非常棒的 jQuery 表格插件](http://www.cnblogs.com/lhb25/archive/2011/04/10/jquery-table-plugin.html) 
-    * [20个非常有用的jQuery表格插件](http://www.iteye.com/news/21050)
-
-
-* 分页插件
-    * [jQuery 分页插件 jPages 使用](http://blog.csdn.net/leixiaohua1020/article/details/12650563) 
-    * [layPage是一款多功能的js分页组件](http://laypage.layui.com/)
-
-
-##时间选择
-* 日历控件
-    * [日历](http://codepen.io/Yingkx/pen/gaPyJR)
-
-
-* D3——最流行的可视化库之一,它被很多其他的表格插件所使用
-      * [D3js](http://d3js.org/)
-      * [关于D3](http://www.netfoucs.com/article/zhang__tianxu/62244.html)
-      * [D3 API](https://github.com/mbostock/d3/wiki/API-Reference)
-      * [D3 中文介绍](https://github.com/mbostock/d3/wiki/CN-Home)
-      * [D3 中文API](https://github.com/mbostock/d3/wiki/Api-%E5%8F%82%E8%80%83)
-
-
-* 响应式站点框架
-      * [Skel.js用于创建响应式站点的前端框架](http://www.uedsc.com/skel-js.html)
-      * [HTML5 Article Structure with hNews](https://css-tricks.com/snippets/html/html5-article-structure-with-hnews/)
-
-
-* 进度条
-      * [超酷HTML5进度条jQuery插件](http://www.gbtags.com/technology/democenter/20120619jquery-plugin-percentageloader/index.html) 
-      * [noUiSlider](http://refreshless.com/nouislider/examples/)
-
-
-* 选择插件
-      * [select —— DropKick.js](http://robdel12.github.io/DropKick/) 
-      * [select —— Selectivity.js](http://arendjr.github.io/selectivity/)
-      * [select](https://select2.github.io/examples.html)
-      * [Multiple Select](http://wenzhixin.net.cn/p/multiple-select/docs/#the-basics1)
-      * [switch](http://abpetkov.github.io/switchery/)
-
-
-* 对话框
-      * [对话框——artDialog](http://aui.github.io/artDialog/doc/index.html#quickref-basic) 
