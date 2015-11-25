@@ -1,11 +1,8 @@
 # Web前端各类框架集锦
 
-* 图片浏览
-      * [Lightbox](http://lokeshdhakar.com/projects/lightbox2/#examples) Lightbox 应该是最流行的图片浏览效果
-      * [HTML5实现屏幕手势解锁](http://www.alloyteam.com/2015/07/html5-shi-xian-ping-mu-shou-shi-jie-suo/#rd)
-      * [图片剪裁——Cropper](http://fengyuanchen.github.io/cropper/)
-      * [fancyBox Demo](http://fancyapps.com/fancybox/demo/)
-      * [fancyBox](http://fancyapps.com/fancybox/#examples)
+* Bootstrap
+      * [Bootstrap](http://www.bootcss.com/) 
+      * 
 
 ##滑动触摸插件
 * Swiper——移动端触摸滑动插件
@@ -58,9 +55,6 @@
 ##图表控件Chart
 * highcharts
     * [用Highcharts轻松构建交互性图表](http://blog.fens.me/tag/grunt/)
-
-* fusioncharts
-    * [fusioncharts图表](http://www.fusioncharts.com/)
 
 
 * 表格插件
