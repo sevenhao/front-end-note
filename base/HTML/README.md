@@ -65,7 +65,7 @@
 <tbody>
 <tr><td><em>标签</em></td><td><em>描述</em></td></tr>
 <tr><td>head</td><td>定义了文档的信息</td></tr>
-<tr><td>title/td><td>定义了文档的标题</td></tr>
+<tr><td>'<title>'</td><td>定义了文档的标题</td></tr>
 <tr><td>base</td><td>定义了页面链接标签的默认链接地址</td></tr>
 <tr><td>link</td><td>定义了一个文档和外部资源之间的关系</td></tr>
 <tr><td>meta</td><td>定义了HTML文档中的元数据</td></tr>
