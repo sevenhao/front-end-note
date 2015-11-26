@@ -53,15 +53,21 @@
 * `<p>`和`</p>`之间的内容描述了段落
 
 ## <a name="struct">头部内容</a> 
-<head></head>；
+```
+<head></head>
+```
 这2个标记符分别表示头部信息的开始和结尾。
 头部中包含的标记是页面的标题、序言、说明等内容，它本身不作为内容来显示，但影响网页显示的效果。
 头部中最常用的标记符是标题标记符和meta标记符，其中标题标记符用于定义网页的标题，它的内容显示在网页窗口的标题栏中，网页标题可被浏览器用作书签和收藏清单。
 
-|| *Year* || *Temperature (low)* || *Temperature (high)* ||
-|| 1900 || -10 || 25 ||
-|| 1910 || -15 || 30 ||
-|| 1920 || -10 || 32 ||
+<table>
+<tbody>
+<tr><td><em>Year</em></td><td><em>Temperature (low)</em></td><td><em>Temperature (high)</em></td></tr>
+<tr><td>1900</td><td>-10</td><td>25</td></tr>
+<tr><td>1910</td><td>-15</td><td>30</td></tr>
+<tr><td>1920</td><td>-10</td><td>32</td></tr>
+</tbody>
+</table>
 
 ## <a name="what">标签(也叫元素)</a>
 标签分为能包含标签内容和不能包含标签内容这两类。    
