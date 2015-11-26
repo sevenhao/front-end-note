@@ -69,8 +69,6 @@
 <tr><td>'<base>'</td><td>定义了页面链接标签的默认链接地址</td></tr>
 <tr><td>'<link>'</td><td>定义了一个文档和外部资源之间的关系</td></tr>
 <tr><td>'<meta>'</td><td>定义了HTML文档中的元数据</td></tr>
-<tr><td>'<script>'</td><td>定义了客户端的脚本文件</td></tr>
-<tr><td>'<style>'</td><td>定义了HTML文档的样式文件</td></tr>
 </tbody>
 </table>
 
