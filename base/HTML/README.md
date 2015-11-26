@@ -110,7 +110,11 @@
 * 非替换元素，比如 p、label 元素等等，浏览器这是直接显示元素所包含的内容。
 
 ## <a name="word">字符集</a>
+![image](https://github.com/sevenhao/front-end-note/blob/master/base/HTML/word.jpg)
+
 
 ## <a name="reading">基础知识学习网站</a>
 * [w3school](http://www.w3school.com.cn/h.asp)
 * [菜鸟教程](http://www.runoob.com/html/html-tutorial.html)
+* [WWW万维网](http://baike.baidu.com/subview/1453/11336725.htm?fromtitle=%E7%8E%AF%E7%90%83%E4%BF%A1%E6%81%AF%E7%BD%91&fromid=9377238&type=syn)
+* [什么是超文本？](http://www.w3school.com.cn/tags/tag_term_hypertext.asp)
