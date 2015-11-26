@@ -8,7 +8,8 @@
 * [标签(也叫元素)](#tag)
 * [块级元素和行内元素](#block-and-inline)
 * [替换元素和非替换元素](#replaced-elements-and-not)
-* [拓展阅读](#reading)
+* [字符集](#word)
+* [基础知识学习网站](#reading)
 
 ## <a name="what">HTML 介绍</a>
 * 超文本标记语言。HyperText Markup Language的缩写，
@@ -62,10 +63,14 @@
 
 <table>
 <tbody>
-<tr><td><em>Year</em></td><td><em>Temperature (low)</em></td><td><em>Temperature (high)</em></td></tr>
-<tr><td>1900</td><td>-10</td><td>25</td></tr>
-<tr><td>1910</td><td>-15</td><td>30</td></tr>
-<tr><td>1920</td><td>-10</td><td>32</td></tr>
+<tr><td><em>标签</em></td><td><em>描述</em></td></tr>
+<tr><td><head></td><td>定义了文档的信息</td></tr>
+<tr><td><title>/td><td>定义了文档的标题</td></tr>
+<tr><td><base></td><td>定义了页面链接标签的默认链接地址</td></tr>
+<tr><td><link></td><td>定义了一个文档和外部资源之间的关系</td></tr>
+<tr><td><meta></td><td>定义了HTML文档中的元数据</td></tr>
+<tr><td><script></td><td>定义了客户端的脚本文件</td></tr>
+<tr><td><style></td><td>定义了HTML文档的样式文件</td></tr>
 </tbody>
 </table>
 
@@ -74,24 +79,38 @@
 
 **能包含内容的标签**由开始标签，结束标签，标签属性，标签的内容组成的。例如：
 ```
-<a href="http:www.baidu.com" title="Baidu一下">百度</a>
+<a href="https://github.com/sevenhao" title="sevenhao">sevenhao</a>
 ```
 其中:    
-* `<a href="http:www.baidu.com" title="Baidu一下">`为起始标签
+* `<a href="https://github.com/sevenhao" title="sevenhao">`为起始标签
 * `</a>`为结束标签
-* `href`和`title`为标签属性，`http:www.baidu.com`和`Baidu一下`为属性对应的值。属性的值要由英文的双引号包起来。
-* `百度`为标签的内容。
+* `href`和`title`为标签属性，`https://github.com/sevenhao`和`sevenhao`为属性对应的值。属性的值要由英文的双引号包起来。
+* `sevenhao`为标签的内容。
 
 **不能包含内容的标签**被称为空元素。空元素是在开始标签中关闭的。    
 如 `<br/>`, `<input type="text" />`
 
+###数据类型
+* 超文本标记语言定义了多种数据类型的元素内容，如脚本数据和样式表的数据，和众多类型的属性值，包括ID、名称、URI、数字、长度单位、语言、媒体描述符、颜色、字符编码、日期和时间等。所有这些数据类型都是专业的字符数据。
+
+###[常用标签介绍]()
+
+
 ## <a name="block-and-inline">块级元素和行内元素</a>
-块级元素会始终占居一行，而行内元素并不会。    
-常见的块级元素有 `div, form, table, header, aside, section, article, figure, figcaption, h1~h6, nav, p, pre, blockqoute, canvas, ol, ul, dl`    
-常见的行内元素有 `span, a, img, label, input, select, textarea, br, i, em, strong, small, button, sub, sup, code`
+* 块级元素会始终占居一行，而行内元素并不会。  
+
+* 常见的块级元素有 `div, form, table, header, aside, section, article, figure, figcaption, h1~h6, nav, p, pre, blockqoute, canvas, ol, ul, dl`    
+
+* 常见的行内元素有 `span, a, img, label, input, select, textarea, br, i, em, strong, small, button, sub, sup, code`
+
 
 ## <a name="replaced-elements-and-not">替换元素和非替换元素</a>
-替换元素就是指浏览器是根据元素的属性来判断具体要显示的内容的元素，比如 img 标签，浏览器是根据其 src 的属性值来读取这个元素所包含的内容的，常见的替换元素还有 input 、textarea、 select、 object、 iframe 和 video 等等，这些元素都有一个共同的特点，就是浏览器并不直接显示其内容，而是通过其某个属性的值来显示具体的内容，比如浏览器会根据 input 中的 type 的属性值来判断到底应该显示单选按钮还是多选按钮亦或是文本输入框。而对于非替换元素，比如 p、label 元素等等，浏览器这是直接显示元素所包含的内容。
+* 替换元素就是指浏览器是根据元素的属性来判断具体要显示的内容的元素，比如 img 标签，浏览器是根据其 src 的属性值来读取这个元素所包含的内容的，常见的替换元素还有 input 、textarea、 select、 object、 iframe 和 video 等等，这些元素都有一个共同的特点，就是浏览器并不直接显示其内容，而是通过其某个属性的值来显示具体的内容，比如浏览器会根据 input 中的 type 的属性值来判断到底应该显示单选按钮还是多选按钮亦或是文本输入框。
 
-## <a name="reading">拓展阅读</a>
-* [什么是超文本？](http://w3school.com.cn/tags/tag_term_hypertext.asp)
+* 非替换元素，比如 p、label 元素等等，浏览器这是直接显示元素所包含的内容。
+
+## <a name="word">字符集</a>
+
+## <a name="reading">基础知识学习网站</a>
+* [w3school](http://www.w3school.com.cn/h.asp)
+* [菜鸟教程](http://www.runoob.com/html/html-tutorial.html)
