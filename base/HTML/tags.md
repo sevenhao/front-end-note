@@ -125,4 +125,110 @@ HTML 元素指的是从开始标签（start tag）到结束标签（end tag）�
     </tbody>
 </table>
 
-####[常用块级元素详情](https://github.com/sevenhao/front-end-note/new/master/base/HTML/block-tag.md)
+####[常用块级元素详情](https://github.com/sevenhao/front-end-note/blob/master/base/HTML/block-tag.md)
+
+
+##<a name="block">内联元素(inline element)</a>
+* 内联元素(inline element)一般都是基于语义级(semantic)的基本元素。
+* 内联元素只能容纳文本或者其他内联元素，常见内联元素 “a”。
+
+* <h2>内联元素(inline element)<</h2>
+<table>
+    <tbody>
+    <tr>
+        <td>元素</td>
+        <td>描述</td>
+        <td>元素</td>
+        <td>描述</td>
+    </tr>
+    <tr>
+        <td>a</td>
+        <td>标签定义超链接，用于从一张页面链接到另一张页面。</td>
+        <td>u</td>
+        <td>下划线</td>
+    </tr>
+    <tr>
+        <td>acronym </td>
+        <td>标签定义首字母缩写。
+            <span class="marked">HTML5 中不支持 &lt;acronym&gt; 标签。请使用
+                &lt;abbr&gt;代替。</span></td>
+        <td>br</td>
+        <td>换行</td>
+    </tr>
+    <tr>
+        <td>bdo </td>
+        <td>元素可覆盖默认的文本方向。</td>
+        <td>big </td>
+        <td>标签呈现大号字体效果。</td>
+    </tr>
+    <tr>
+        <td>b</td>
+        <td>标签规定粗体文本</td>
+        <td>img </td>
+        <td>图片</td>
+    </tr>
+    <tr>
+        <td>code </td>
+        <td>计算机代码(在引用源码的时候需要)</td>
+        <td>dfn </td>
+        <td>定义字段</td>
+    </tr>
+    <tr>
+        <td>em </td>
+        <td>强调</td>
+        <td>font </td>
+        <td>规定文本的字体、字体尺寸、字体颜色。</td>
+    </tr>
+    <tr>
+        <td>i</td>
+        <td>斜体</td>
+        <td>cite </td>
+        <td>它所包含的文本对某个参考文献的引用，比如书籍或者杂志的标题。</td>
+        
+    </tr>
+    <tr>
+        <td>input </td>
+        <td>输入框</td>
+        <td>kbd </td>
+        <td>定义键盘文本</td>
+    </tr>
+    <tr>
+        <td>label</td>
+        <td>标签为 input 元素定义标注（标记）</td>
+        <td>q</td>
+        <td>短引用 </td>
+    </tr>
+    <tr>
+        <td>select </td>
+        <td>元素可创建单选或多选菜单</td>
+        <td>small </td>
+        <td>小字体文本   </td>
+    </tr>
+    <tr>
+        <td>span</td>
+        <td>常用内联容器，定义文本内区块</td>
+        <td>strike </td>
+        <td>中划线，删除线</td>
+    </tr>
+    <tr>
+        <td>strong </td>
+        <td>粗体强调</td>
+        <td>sub</td>
+        <td>下标</td>
+    </tr>
+    <tr>
+        <td>sup </td>
+        <td>上标</td>
+        <td>textarea</td>
+        <td>多行文本输入框</td>
+    </tr>
+    <tr>
+        <td>tt</td>
+        <td>电传文本</td>
+        <td>abbr </td>
+        <td>标签指示简称或缩写，比如 "WWW" 或 "NATO"。</td>
+    </tr>
+    </tbody>
+</table>
+
+
