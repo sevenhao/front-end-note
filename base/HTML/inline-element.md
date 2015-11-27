@@ -1,339 +1,171 @@
 ###内联元素
 
-* [address](#address)
-* [div](#div)
-* [dl](#dl)
-* [fieldse](#fieldse)
-* [form](#form)
-* [h1 - h6标题](#h)
-* [hr](#hr)
-* [ol - 排序表单](#ol)
-* [table - 表格](#table)
-* [ul - 非排序列表](#ul)
+* [a](#a)
+* [img](#img)
+* [input](#input)
 
 
-###<a name="address">address</a>
-<pre>&lt;address&gt;
-Written by &lt;a href="mailto:webmaster@example.com"&gt;Donald Duck&lt;/a&gt;.&lt;br&gt; 
-Visit us at:&lt;br&gt;
-Example.com&lt;br&gt;
-Box 564, Disneyland&lt;br&gt;
-USA
-&lt;/address&gt;
-</pre>
-
-[显示效果](http://www.w3school.com.cn/tiy/t.asp?f=html_address)
-
-* 用法 
-如果 <code>&lt;address&gt;</code> 元素位于<code>&lt;body&gt;</code> 元素内，则它表示文档联系信息。
-如果<code>&lt;address&gt;</code> 元素位于 <code>&lt;article&gt;</code>  元素内，则它表示文章的联系信息。
-<code>&lt;address&gt;</code>  元素中的文本通常呈现为斜体。
-
-###<a name="div">div</a>
-<pre><code>&lt;div <span style="color:red;">style="color:#00FF00"</span>&gt;</code>
-  &lt;h3&gt;This is a header&lt;/h3&gt;
-  &lt;p&gt;This is a paragraph.&lt;/p&gt;
-<code>&lt;/div&gt;</code>
-</pre>
-
-[显示效果](http://www.w3school.com.cn/tiy/t.asp?f=html_div_test)
-
-* 用法 
-<code>&lt;div&gt;</code>是一个块级元素。这意味着它的内容自动地开始一个新行。实际上，换行是<code>&lt;div&gt;</code>固有的唯一格式表现。可以通过 <code>&lt;div&gt;</code>的 class 或 id 应用额外的样式。
-
-
-###<a name="dl">dl</a>
-
+###<a name="a">a</a>
 <div>
 <h2>实例</h2>
 
-<pre><code>&lt;dl&gt;</code>
-   &lt;dt&gt;计算机&lt;/dt&gt;
-   &lt;dd&gt;用来计算的仪器 ... ...&lt;/dd&gt;
-   &lt;dt&gt;显示器&lt;/dt&gt;
-   &lt;dd&gt;以视觉方式显示信息的装置 ... ...&lt;/dd&gt;
-<code>&lt;/dl&gt;</code>
-</pre>
-</div>
+<p>指向 w3school 的超链接：</p>
 
-[显示效果](http://www.w3school.com.cn/tiy/t.asp?f=html_list_definition)
+<pre>&lt;a href="http://www.w3school.com.cn"&gt;W3School&lt;/a&gt;</pre>
 
-
-###<a name="fieldse">fieldse</a>
-<div>
-<h2>实例</h2>
-
-<p>组合表单中的相关元素：</p>
-
-<pre>&lt;form&gt;
-  <code>&lt;fieldset&gt;</code>
-    &lt;legend&gt;health information&lt;/legend&gt;
-    height: &lt;input type="text" /&gt;
-    weight: &lt;input type="text" /&gt;
-  <code>&lt;/fieldset&gt;</code>
-&lt;/form&gt;
-</pre>
-</div>
-
-[显示效果](http://www.w3school.com.cn/tiy/t.asp?f=html_fieldset)
-
-* 用法 
-<div>
-<p>fieldset 元素可将表单内的相关元素分组。</p>
-
-<p>&lt;fieldset&gt; 标签将表单内容的一部分打包，生成一组相关表单的字段。</p>
-<p>当一组表单元素放到 &lt;fieldset&gt; 标签内时，浏览器会以特殊方式来显示它们，它们可能有特殊的边界、3D 效果，或者甚至可创建一个子表单来处理这些元素。</p>
-
-<p>&lt;fieldset&gt; 标签没有必需的或唯一的属性。</p>
-
-<p><a href="/tags/tag_legend.asp" title="HTML <legend> 标签">&lt;legend&gt; 标签</a>为 fieldset 元素定义标题。</p>
-</div>
-
-
-### <a name="form">form</a>
-<div>
-<h2>例子</h2>
-
-<pre><code>&lt;form action="form_action.asp" method="get"&gt;</code>
-  &lt;p&gt;First name: &lt;input type="text" name="fname" /&gt;&lt;/p&gt;
-  &lt;p&gt;Last name: &lt;input type="text" name="lname" /&gt;&lt;/p&gt;
-  &lt;input type="submit" value="Submit" /&gt;
-<code>&lt;/form&gt;</code>
-</pre>
-</div>
-
-[显示效果](http://www.w3school.com.cn/tiy/t.asp?f=html_form_submit)
-
-* 用法 
-<div>
-<p>&lt;form&gt; 标签用于为用户输入创建 HTML 表单。</p>
-
-<p>表单能够包含 <a href="http://www.w3school.com.cn/tags/tag_input.asp" title="HTML <input> 标签">input 元素</a>，比如文本字段、复选框、单选框、提交按钮等等。</p>
-
-<p>表单还可以包含 <a href="/tags/tag_menu.asp" title="HTML <menu> 标签">menus</a>、<a href="http://www.w3school.com.cn/tags/tag_textarea.asp" title="HTML <textarea> 标签">textarea</a>、<a href="http://www.w3school.com.cn/tags/tag_fieldset.asp" title="HTML <fieldset> 标签">fieldset</a>、<a href="http://www.w3school.com.cn/tags/tag_legend.asp" title="HTML <legend> 标签">legend</a> 和 <a href="http://www.w3school.com.cn/tags/tag_label.asp" title="HTML <label> 标签">label 元素</a>。</p>
-
-<p>表单用于向服务器传输数据。</p>
+<p class="tiy"><a target="_blank" href="/tiy/t.asp?f=html_a">亲自试一试</a></p>
 </div>
 
 <div>
-<h2>属性</h2>
+<h2>定义和用法</h2>
 
-<p class="html5_new_note"><span>new</span>  HTML5 中的新属性。</p>
+<p>&lt;a&gt; 标签定义超链接，用于从一张页面链接到另一张页面。</p>
 
-<table class="dataintable">
-  <tbody><tr>
-    <th>属性</th>
-    <th>值</th>
-    <th>描述</th>
-  </tr>
+<p>&lt;a&gt; 元素最重要的属性是 href 属性，它指示链接的目标。</p>
 
-  <tr>
-    <td>accept</td>
-    <td><i>MIME_type</i></td>
-    <td><span class="deprecated">HTML 5 中不支持。</span></td>
-  </tr>
+<p>在所有浏览器中，链接的默认外观是：</p>
 
-  <tr>
-    <td><a href="http://www.w3school.com.cn/tags/att_form_accept-charset.asp" title="HTML5 <form> accept-charset 属性">accept-charset</a></td>
-    <td><i>charset_list</i></td>
-    <td>规定服务器可处理的表单数据字符集。</td>
-  </tr>
-
-  <tr>
-    <td><a href="http://www.w3school.com.cn/tags/att_form_action.asp" title="HTML5 <form> action 属性">action</a></td>
-    <td><i>URL</i></td>
-    <td>规定当提交表单时向何处发送表单数据。</td>
-  </tr>
-
-  <tr>
-    <td class="html5_new"><a href="http://www.w3school.com.cn/tags/att_form_autocomplete.asp" title="HTML5 <form> autocomplete 属性">autocomplete</a></td>
-    <td>
-      <ul>
-      <li>on</li>
-      <li>off</li>
-      </ul>
-    </td>
-    <td>规定是否启用表单的自动完成功能。</td>
-  </tr>
-
-  <tr>
-    <td><a href="http://www.w3school.com.cn/tags/att_form_enctype.asp" title="HTML5 <form> enctype 属性">enctype</a></td>
-    <td>见说明</td>
-    <td>规定在发送表单数据之前如何对其进行编码。</td>
-  </tr>
-
-  <tr>
-    <td><a href="http://www.w3school.com.cn/tags/att_form_method.asp" title="HTML5 <form> method 属性">method</a></td>
-    <td>
-      <ul>
-      <li>get</li>
-      <li>post</li>
-      </ul>
-    </td>
-    <td>规定用于发送 form-data 的 HTTP 方法。</td>
-  </tr>
-
-  <tr>
-    <td><a href="http://www.w3school.com.cn/tags/att_form_name.asp" title="HTML5 <form> name 属性">name</a></td>
-    <td><i>form_name</i></td>
-    <td>规定表单的名称。</td>
-  </tr>
-
-  <tr>
-    <td class="html5_new"><a href="http://www.w3school.com.cn/tags/att_form_novalidate.asp" title="HTML5 <form> novalidate 属性">novalidate</a></td>
-    <td>novalidate</td>
-    <td>如果使用该属性，则提交表单时不进行验证。</td>
-  </tr>
-
-  <tr>
-    <td><a href="http://www.w3school.com.cn/tags/att_form_target.asp" title="HTML5 <form> target 属性">target</a></td>
-    <td>
-      <ul>
-      <li>_blank</li>
-      <li>_self</li>
-      <li>_parent</li>
-      <li>_top</li>
-      <li><i>framename</i></li>
-      </ul>
-    </td>
-    <td>规定在何处打开 action URL。</td>
-  </tr>
-</tbody></table>
+<ul>
+<li style="text-decoration: underline; color:#0000ff;">未被访问的链接带有下划线而且是蓝色的</li>
+<li style="text-decoration: underline; color:purple;">已被访问的链接带有下划线而且是紫色的</li>
+<li style="text-decoration: underline; color:red;">活动链接带有下划线而且是红色的</li>
+</ul>
 </div>
 
-
-###<a name="h">h1 - h6标题</a>
 <div>
-<h2>实例</h2>
-
-<p>六个不同的 HTML 标题：</p>
-
-<pre>&lt;h1&gt;这是标题 1&lt;/h1&gt;
-&lt;h2&gt;这是标题 2&lt;/h2&gt;
-&lt;h3&gt;这是标题 3&lt;/h3&gt;
-&lt;h4&gt;这是标题 4&lt;/h4&gt;
-&lt;h5&gt;这是标题 5&lt;/h5&gt;
-&lt;h6&gt;这是标题 6&lt;/h6&gt;
-</pre>
-
-<p class="tiy"><a target="_blank" href="/tiy/t.asp?f=html_headers">亲自试一试</a></p>
-</div>
-
-[显示效果](http://www.w3school.com.cn/tiy/t.asp?f=html_headers)
-
-###<a name="hr">hr</a>
-<div>
-<h2>实例</h2>
-
-<p>被水平线分隔的标题和段落：</p>
-
-<pre>&lt;h1&gt;This is header 1&lt;/h1&gt;
-<code>&lt;hr /&gt;</code>
-&lt;p&gt;This is some text&lt;/p&gt;
-</pre>
-</div>
-
-[显示效果](http://www.w3school.com.cn/tiy/t.asp?f=html_hr)
-
-
-###<a name="ol">ol - 排序表单</a>
-<div>
-<h2>实例</h2>
-
-<p>有序 HTML 列表：</p>
-
-<pre><code>&lt;ol&gt;</code>
-  &lt;li&gt;Coffee&lt;/li&gt;
-  &lt;li&gt;Tea&lt;/li&gt;
-  &lt;li&gt;Milk&lt;/li&gt;
-<code>&lt;/ol&gt;</code>
-</pre>
-</div>
-
-[显示效果](http://www.w3school.com.cn/tiy/t.asp?f=html_list_ordered)
-
-<div>
-<h2>属性</h2>
-
-<p>New：HTML5 中的新属性。</p>
-
+<p class="note"><span style="color:blue;">New</span> : HTML5 中的新属性。</p>
 
 <table class="dataintable">
 <tbody><tr>
-<th>属性</th>
+<th style="width:20%;">属性</th>
 <th>值</th>
 <th>描述</th>
 </tr>
 
 <tr>
-<td><a href="http://www.w3school.com.cn/tags/att_ol_compact.asp">compact</a></td>
-<td>compact</td>
-<td><p>HTML5 中不支持。HTML 4.01 中不赞成使用。</p><p>规定列表呈现的效果比正常情况更小巧。</p></td>
+<td><a href="/tags/att_a_charset.asp" title="HTML <a> 标签的 charset 属性">charset</a></td>
+<td><i>char_encoding</i></td>
+<td><span class="marked">HTML5 中不支持。</span>规定被链接文档的字符集。</td>
 </tr>
 
 <tr>
-<td class="html5_new"><a href="http://www.w3school.com.cn/tags/att_ol_reversed.asp">reversed</a></td>
-<td>reversed</td>
-<td>规定列表顺序为降序。(9,8,7...)</td>
+<td><a href="/tags/att_a_coords.asp" title="HTML <a> 标签的 coords 属性">coords</a></td>
+<td><i>coordinates</i></td>
+<td><span class="marked">HTML5 中不支持。</span>规定链接的坐标。</td>
 </tr>
 
 <tr>
-<td><a href="http://www.w3school.com.cn/tags/att_ol_start.asp">start</a></td>
-<td><i>number</i></td>
-<td>规定有序列表的起始值。</td>
+<td class="html5_new"><a href="/tags/att_a_download.asp" title="HTML5 <a> download 属性">download</a></td>
+<td><i>filename</i></td>
+<td>规定被下载的超链接目标。</td>
 </tr>
 
 <tr>
-<td><a href="http://www.w3school.com.cn/tags/att_ol_type.asp">type</a></td>
+<td><a href="/tags/att_a_href.asp" title="HTML <a> 标签的 href 属性">href</a></td>
+<td><i>URL</i></td>
+<td>规定链接指向的页面的 URL。</td>
+</tr>
+
+<tr>
+<td><a href="/tags/att_a_hreflang.asp" title="HTML <a> 标签的 hreflang 属性">hreflang</a></td>
+<td><i>language_code</i></td>
+<td>规定被链接文档的语言。</td>
+</tr>
+
+<tr>
+<td class="html5_new"><a href="/tags/att_a_media.asp" title="HTML5 <a> media 属性">media</a></td>
+<td><i>media_query</i></td>
+<td>规定被链接文档是为何种媒介/设备优化的。</td>
+</tr>
+
+<tr>
+<td><a href="/tags/att_a_name.asp" title="HTML <a> 标签的 name 属性">name</a></td>
+<td><i>section_name</i></td>
+<td><span class="marked">HTML5 中不支持。</span>规定锚的名称。</td>
+</tr>
+
+<tr>
+<td><a href="/tags/att_a_rel.asp" title="HTML <a> 标签的 rel 属性">rel</a></td>
+<td><i>text</i></td>
+<td>规定当前文档与被链接文档之间的关系。</td>
+</tr>
+
+<tr>
+<td><a href="/tags/att_a_rev.asp" title="HTML <a> 标签的 rev 属性">rev</a></td>
+<td><i>text</i></td>
+<td><span class="marked">HTML5 中不支持。</span>规定被链接文档与当前文档之间的关系。</td>
+</tr>
+
+<tr>
+<td><a href="/tags/att_a_shape.asp" title="HTML <a> 标签的 shape 属性">shape</a></td>
 <td>
-    <ul>
-    <li>1</li>
-    <li>A</li>
-    <li>a</li>
-    <li>I</li>
-    <li>i</li>
-    </ul>
+	<ul>
+	<li>default</li>
+	<li>rect</li>
+	<li>circle</li>
+	<li>poly</li>
+	</ul>
 </td>
-<td>规定在列表中使用的标记类型。</td>
+<td><span class="marked">HTML5 中不支持。</span>规定链接的形状。</td>
+</tr>
+
+<tr>
+<td><a href="/tags/att_a_target.asp" title="HTML <a> 标签的 target 属性">target</a></td>
+<td>
+	<ul>
+	<li>_blank</li>
+	<li>_parent</li>
+	<li>_self</li>
+	<li>_top</li>
+	<li><i>framename</i></li>
+	</ul>
+</td>
+<td>规定在何处打开链接文档。</td>
+</tr>
+
+<tr>
+<td class="html5_new"><a href="/tags/att_a_type.asp" title="HTML5 <a> type 属性">type</a></td>
+<td><i>MIME type</i></td>
+<td>规定被链接文档的的 MIME 类型。</td>
 </tr>
 </tbody></table>
 </div>
 
 
-###<a name="table">table - 表格</a>
+###<a name="img">img</a>
 <div>
 <h2>实例</h2>
 
-<p>一个简单的 HTML 表格，包含两行两列：</p>
+<p>在下面的例子中，我们在页面中插入一幅 W3School 的工程师在上海鲜花港拍摄的郁金香照片：</p>
+<pre>&lt;img <code>src="/i/eg_tulip.jpg"</code>  alt="上海鲜花港 - 郁金香" /&gt;</pre>
 
-<pre><code>&lt;table border="1"&gt;</code>
-  &lt;tr&gt;
-    &lt;th&gt;Month&lt;/th&gt;
-    &lt;th&gt;Savings&lt;/th&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td&gt;January&lt;/td&gt;
-    &lt;td&gt;$100&lt;/td&gt;
-  &lt;/tr&gt;
-<code>&lt;/table&gt;</code>
-</pre>
+<p>以上代码的效果：</p>
+<img src="http://www.w3school.com.cn/i/eg_tulip.jpg" alt="上海鲜花港 - 郁金香">
 </div>
 
-[显示效果](http://www.w3school.com.cn/tiy/t.asp?f=html_table_test)
 
 
-### <a name="ul">ul - 非排序列表</a>
+###<a name="input">input</a>
+
 <div>
 <h2>实例</h2>
 
-<p>无序 HTML 列表：</p>
+<p>一个简单的 HTML 表单，包含两个文本输入框和一个提交按钮：</p>
 
-<pre><code>&lt;ul&gt;</code>
-  &lt;li&gt;Coffee&lt;/li&gt;
-  &lt;li&gt;Tea&lt;/li&gt;
-  &lt;li&gt;Milk&lt;/li&gt;
-<code>&lt;/ul&gt;</code>
+<pre>&lt;form action="form_action.asp" method="get"&gt;
+  First name: <code>&lt;input type="text" name="fname" /&gt;</code>
+  Last name: <code>&lt;input type="text" name="lname" /&gt;</code>
+  <code>&lt;input type="submit" value="Submit" /&gt;</code>
+&lt;/form&gt;
 </pre>
 </div>
 
-[显示效果](http://www.w3school.com.cn/tiy/t.asp?f=html_list_unordered)
+[显示效果](http://www.w3school.com.cn/tiy/t.asp?f=html_form_submit)
+
+<div>
+<h2>定义和用法</h2>
+
+<p>&lt;input&gt; 标签用于搜集用户信息。</p>
+
+<p>根据不同的 type 属性值，输入字段拥有很多种形式。输入字段可以是文本字段、复选框、掩码后的文本控件、单选按钮、按钮等等。</p>
+</div>
