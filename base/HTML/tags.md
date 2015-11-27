@@ -35,6 +35,8 @@ HTML 元素指的是从开始标签（start tag）到结束标签（end tag）�
 <p>属性总是在 HTML 元素的<em>开始标签</em>中规定。</p>
 </div>
 
+更多详情请参考[<《HTML参考手册》——属性](http://www.w3school.com.cn/tags/html_ref_standardattributes.asp)
+
 
 ##<a name="block">块级元素</a>
 * 块元素一般都从新行开始，它可以容纳内联元素和其他块元素,常见块元素是段落标签'P"。“form"这个块元素比较特殊，它只能用来容纳其他块元素。
