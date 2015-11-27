@@ -414,49 +414,25 @@ USA
 
 
 ###table - 表格
-<textarea id="TestCode" wrap="logical">&lt;html&gt;
+<div>
+<h2>实例</h2>
 
-&lt;body&gt;
+<p>一个简单的 HTML 表格，包含两行两列：</p>
 
-&lt;p&gt;每个表格由 table 标签开始。&lt;/p&gt;
-&lt;p&gt;每个表格行由 tr 标签开始。&lt;/p&gt;
-&lt;p&gt;每个表格数据由 td 标签开始。&lt;/p&gt;
+<pre><code>&lt;table border="1"&gt;</code>
+  &lt;tr&gt;
+    &lt;th&gt;Month&lt;/th&gt;
+    &lt;th&gt;Savings&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;January&lt;/td&gt;
+    &lt;td&gt;$100&lt;/td&gt;
+  &lt;/tr&gt;
+<code>&lt;/table&gt;</code>
+</pre>
+</div>
 
-&lt;h4&gt;一列：&lt;/h4&gt;
-&lt;table border="1"&gt;
-&lt;tr&gt;
-  &lt;td&gt;100&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/table&gt;
-
-&lt;h4&gt;一行三列：&lt;/h4&gt;
-&lt;table border="1"&gt;
-&lt;tr&gt;
-  &lt;td&gt;100&lt;/td&gt;
-  &lt;td&gt;200&lt;/td&gt;
-  &lt;td&gt;300&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/table&gt;
-
-&lt;h4&gt;两行三列：&lt;/h4&gt;
-&lt;table border="1"&gt;
-&lt;tr&gt;
-  &lt;td&gt;100&lt;/td&gt;
-  &lt;td&gt;200&lt;/td&gt;
-  &lt;td&gt;300&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-  &lt;td&gt;400&lt;/td&gt;
-  &lt;td&gt;500&lt;/td&gt;
-  &lt;td&gt;600&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/table&gt;
-
-&lt;/body&gt;
-&lt;/html&gt;
-</textarea>
-
-[显示效果](http://www.w3school.com.cn/tiy/t.asp?f=html_tables)
+[显示效果](http://www.w3school.com.cn/tiy/t.asp?f=html_table_test)
 
 
 ### ul - 非排序列表
