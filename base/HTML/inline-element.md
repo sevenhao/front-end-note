@@ -9,7 +9,7 @@
 * [textarea](#textarea)
 * [font](#font)
 * [上标sub和下标sup](#sub)
-
+* [HTML 文本格式化 code、em、strong、site](#big)
 
 ###<a name="a">a</a>
 <div>
@@ -431,3 +431,53 @@ This text contains &lt;sup&gt;superscript&lt;/sup&gt;
 
 [显示效果](http://www.w3school.com.cn/tiy/t.asp?f=html_sup)
 
+
+###<a name="big">HTML 文本格式化</a>
+<div>
+<h2>定义和用法</h2>
+<p><strong>以下元素都是短语元素。虽然这些标签定义的文本大多会呈现出特殊的样式，但实际上，这些标签都拥有确切的语义。</strong></p>
+<p><strong>我们并不反对使用它们，但是如果您只是为了达到某种视觉效果而使用这些标签的话，我们建议您使用样式表，那么做会达到更加丰富的效果。</strong></p>
+<table class="dataintable">
+<tbody><tr>
+<td><a href="/tags/tag_em.asp" title="HTML <em> 标签">&lt;em&gt;</a></td>
+<td>把文本定义为强调的内容。</td>
+</tr>
+
+<tr>
+<td><a href="/tags/tag_strong.asp" title="HTML <strong> 标签">&lt;strong&gt;</a></td>
+<td>把文本定义为语气<em>更强</em>的强调的内容。</td>
+</tr>
+
+<tr>
+<td><a href="/tags/tag_dfn.asp" title="HTML <dfn> 标签">&lt;dfn&gt;</a></td>
+<td>定义一个定义项目。</td>
+</tr>
+
+<tr>
+<td><a href="/tags/tag_code.asp" title="HTML <code> 标签">&lt;code&gt;</a></td>
+<td>定义计算机代码文本。</td>
+</tr>
+
+<tr>
+<td><a href="/tags/tag_samp.asp" title="HTML <samp> 标签">&lt;samp&gt;</a></td>
+<td>定义样本文本。</td>
+</tr>
+
+<tr>
+<td><a href="/tags/tag_kbd.asp" title="HTML <kbd> 标签">&lt;kbd&gt;</a></td>
+<td>定义键盘文本。它表示文本是从键盘上键入的。它经常用在与计算机相关的文档或手册中。</td>
+</tr>
+
+<tr>
+<td><a href="/tags/tag_var.asp" title="HTML <var> 标签">&lt;var&gt;</a></td>
+<td>定义变量。您可以将此标签与 &lt;pre&gt; 及 &lt;code&gt; 标签配合使用。</td>
+</tr>
+
+<tr>
+<td><a href="/tags/tag_cite.asp" title="HTML <cite> 标签">&lt;cite&gt;</a></td>
+<td>定义引用。可使用该标签对参考文献的引用进行定义，比如书籍或杂志的标题。</td>
+</tr>
+</tbody></table>
+</div>
+
+[显示效果](http://www.w3school.com.cn/tiy/t.asp?f=html_textformatting)
