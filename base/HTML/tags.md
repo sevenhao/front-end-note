@@ -231,4 +231,5 @@ HTML 元素指的是从开始标签（start tag）到结束标签（end tag）�
     </tbody>
 </table>
 
+####[常用内联元素详情](https://github.com/sevenhao/front-end-note/blob/master/base/HTML/inline-element.md)
 
