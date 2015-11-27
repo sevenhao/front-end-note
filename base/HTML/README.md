@@ -110,6 +110,72 @@
 * 非替换元素，比如 p、label 元素等等，浏览器这是直接显示元素所包含的内容。
 
 ## <a name="word">字符集</a>
+<table log-set-param="table_view" width="99%" class="table-view log-set-param"><tbody><tr><th height="0" align="left"><div class="para">显示结果</div>
+</th><th height="0" align="left" valign="top"><div class="para">描述</div>
+</th><th><div class="para">实体名称</div>
+</th><th><div class="para">实体编号</div>
+</th></tr><tr><td align="center" valign="center">　</td><td align="center" valign="center"><div class="para">空格</div>
+</td><td align="center" valign="center"><div class="para">&amp;nbsp;</div>
+</td><td align="center" valign="center">　</td></tr><tr><td align="center" valign="center"><div class="para">&lt;</div>
+</td><td align="center" valign="center"><div class="para">小于号</div>
+</td><td align="center" valign="center"><div class="para">&amp;lt;</div>
+</td><td align="center" valign="center"><div class="para">&lt;&lt; p=""&gt;&lt;!--</div>
+</td></tr><tr><td align="center" valign="center"><div class="para">&gt;</div>
+</td><td align="center" valign="center"><div class="para">大于号</div>
+</td><td align="center" valign="center"><div class="para">&amp;gt;</div>
+</td><td align="center" valign="center"><div class="para">&gt;</div>
+</td></tr><tr><td align="center" valign="center"><div class="para">&amp;</div>
+</td><td align="center" valign="center"><div class="para">和号</div>
+</td><td align="center" valign="center"><div class="para">&amp;amp;</div>
+</td><td align="center" valign="center"><div class="para">&amp;</div>
+</td></tr><tr><td align="center" valign="center"><div class="para">"</div>
+</td><td align="center" valign="center"><div class="para">引号</div>
+</td><td align="center" valign="center"><div class="para">&amp;quot;</div>
+</td><td align="center" valign="center"><div class="para">"</div>
+</td></tr><tr><td align="center" valign="center"><div class="para">'</div>
+</td><td align="center" valign="center"><div class="para">撇号</div>
+</td><td align="center" valign="center"><div class="para">&amp;apos; (IE不支持)</div>
+</td><td align="center" valign="center"><div class="para">'</div>
+</td></tr><tr><td align="center" valign="center"><div class="para">￠</div>
+</td><td align="center" valign="center"><div class="para">分</div>
+</td><td align="center" valign="center"><div class="para">&amp;cent;</div>
+</td><td align="center" valign="center"><div class="para">¢</div>
+</td></tr><tr><td align="center" valign="center"><div class="para">￡</div>
+</td><td align="center" valign="center"><div class="para">镑</div>
+</td><td align="center" valign="center"><div class="para">&amp;pound;</div>
+</td><td align="center" valign="center"><div class="para">£</div>
+</td></tr><tr><td align="center" valign="center"><div class="para">￥</div>
+</td><td align="center" valign="center"><div class="para">日元</div>
+</td><td align="center" valign="center"><div class="para">&amp;yen;</div>
+</td><td align="center" valign="center"><div class="para">¥</div>
+</td></tr><tr><td align="center" valign="center"><div class="para">?</div>
+</td><td align="center" valign="center"><div class="para">欧元</div>
+</td><td align="center" valign="center"><div class="para">&amp;euro;</div>
+</td><td align="center" valign="center"><div class="para">€</div>
+</td></tr><tr><td align="center" valign="center"><div class="para">§</div>
+</td><td align="center" valign="center"><div class="para">小节</div>
+</td><td align="center" valign="center"><div class="para">&amp;sect;</div>
+</td><td align="center" valign="center"><div class="para">§</div>
+</td></tr><tr><td align="center" valign="center"><div class="para">©</div>
+</td><td align="center" valign="center"><div class="para">版权</div>
+</td><td align="center" valign="center">&amp;copy;</td><td align="center" valign="center"><div class="para">©</div>
+</td></tr><tr><td align="center" valign="center"><div class="para">®</div>
+</td><td align="center" valign="center"><div class="para">注册商标</div>
+</td><td align="center" valign="center"><div class="para">&amp;reg;</div>
+</td><td align="center" valign="center"><div class="para">®</div>
+</td></tr><tr><td align="center" valign="center">™</td><td align="center" valign="center"><div class="para">商标</div>
+</td><td align="center" valign="center"><div class="para">&amp;trade;</div>
+</td><td align="center" valign="center"><div class="para">™</div>
+</td></tr><tr><td align="center" valign="center"><div class="para">×</div>
+</td><td align="center" valign="center"><div class="para">乘号</div>
+</td><td align="center" valign="center"><div class="para">&amp;times;</div>
+</td><td align="center" valign="center"><div class="para">×</div>
+</td></tr><tr><td align="center" valign="center"><div class="para">÷</div>
+</td><td align="center" valign="center"><div class="para">除号</div>
+</td><td align="center" valign="center"><div class="para">&amp;divide;</div>
+</td><td align="center" valign="center"><div class="para">÷</div>
+</td></tr></tbody></table>
+
 ![image](https://github.com/sevenhao/front-end-note/blob/master/base/HTML/word.jpg)
 
 
