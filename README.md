@@ -1,8 +1,8 @@
 # Web前端各类资料网址收藏
 
-####[插件](https://github.com/sevenhao/front-end-note/blob/master/front-end-plugs.md)
-####[框架](https://github.com/sevenhao/front-end-note/blob/master/front-end-frame.md)
-####[博客](https://github.com/sevenhao/front-end-note/blob/master/front-end-blogs.md)
+####[插件](https://github.com/sevenhao/front-end-note/tree/master/plugs)
+####[框架](https://github.com/sevenhao/front-end-note/tree/master/frame)
+####[博客](https://github.com/sevenhao/front-end-note/tree/master/blogs)
 
 ##技术网站
 ###基础教程
