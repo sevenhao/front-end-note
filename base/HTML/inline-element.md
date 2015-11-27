@@ -12,9 +12,9 @@
 <p>指向 w3school 的超链接：</p>
 
 <pre>&lt;a href="http://www.w3school.com.cn"&gt;W3School&lt;/a&gt;</pre>
-
-<p class="tiy"><a target="_blank" href="/tiy/t.asp?f=html_a">亲自试一试</a></p>
 </div>
+
+[显示效果](http://www.w3school.com.cn/tiy/t.asp?f=html_a)
 
 <div>
 <h2>定义和用法</h2>
