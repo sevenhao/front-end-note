@@ -231,9 +231,9 @@ USA
 <div>
 <p>&lt;form&gt; 标签用于为用户输入创建 HTML 表单。</p>
 
-<p>表单能够包含 <a href="/tags/tag_input.asp" title="HTML <input> 标签">input 元素</a>，比如文本字段、复选框、单选框、提交按钮等等。</p>
+<p>表单能够包含 <a href="http://www.w3school.com.cn/tags/tag_input.asp" title="HTML <input> 标签">input 元素</a>，比如文本字段、复选框、单选框、提交按钮等等。</p>
 
-<p>表单还可以包含 <a href="/tags/tag_menu.asp" title="HTML <menu> 标签">menus</a>、<a href="/tags/tag_textarea.asp" title="HTML <textarea> 标签">textarea</a>、<a href="/tags/tag_fieldset.asp" title="HTML <fieldset> 标签">fieldset</a>、<a href="/tags/tag_legend.asp" title="HTML <legend> 标签">legend</a> 和 <a href="/tags/tag_label.asp" title="HTML <label> 标签">label 元素</a>。</p>
+<p>表单还可以包含 <a href="/tags/tag_menu.asp" title="HTML <menu> 标签">menus</a>、<a href="http://www.w3school.com.cn/tags/tag_textarea.asp" title="HTML <textarea> 标签">textarea</a>、<a href="http://www.w3school.com.cn/tags/tag_fieldset.asp" title="HTML <fieldset> 标签">fieldset</a>、<a href="http://www.w3school.com.cn/tags/tag_legend.asp" title="HTML <legend> 标签">legend</a> 和 <a href="http://www.w3school.com.cn/tags/tag_label.asp" title="HTML <label> 标签">label 元素</a>。</p>
 
 <p>表单用于向服务器传输数据。</p>
 </div>
@@ -257,19 +257,19 @@ USA
   </tr>
 
   <tr>
-    <td><a href="/tags/att_form_accept-charset.asp" title="HTML5 <form> accept-charset 属性">accept-charset</a></td>
+    <td><a href="http://www.w3school.com.cn/tags/att_form_accept-charset.asp" title="HTML5 <form> accept-charset 属性">accept-charset</a></td>
     <td><i>charset_list</i></td>
     <td>规定服务器可处理的表单数据字符集。</td>
   </tr>
 
   <tr>
-    <td><a href="/tags/att_form_action.asp" title="HTML5 <form> action 属性">action</a></td>
+    <td><a href="http://www.w3school.com.cn/tags/att_form_action.asp" title="HTML5 <form> action 属性">action</a></td>
     <td><i>URL</i></td>
     <td>规定当提交表单时向何处发送表单数据。</td>
   </tr>
 
   <tr>
-    <td class="html5_new"><a href="/tags/att_form_autocomplete.asp" title="HTML5 <form> autocomplete 属性">autocomplete</a></td>
+    <td class="html5_new"><a href="http://www.w3school.com.cn/tags/att_form_autocomplete.asp" title="HTML5 <form> autocomplete 属性">autocomplete</a></td>
     <td>
       <ul>
       <li>on</li>
@@ -280,13 +280,13 @@ USA
   </tr>
 
   <tr>
-    <td><a href="/tags/att_form_enctype.asp" title="HTML5 <form> enctype 属性">enctype</a></td>
+    <td><a href="http://www.w3school.com.cn/tags/att_form_enctype.asp" title="HTML5 <form> enctype 属性">enctype</a></td>
     <td>见说明</td>
     <td>规定在发送表单数据之前如何对其进行编码。</td>
   </tr>
 
   <tr>
-    <td><a href="/tags/att_form_method.asp" title="HTML5 <form> method 属性">method</a></td>
+    <td><a href="http://www.w3school.com.cn/tags/att_form_method.asp" title="HTML5 <form> method 属性">method</a></td>
     <td>
       <ul>
       <li>get</li>
@@ -297,19 +297,19 @@ USA
   </tr>
 
   <tr>
-    <td><a href="/tags/att_form_name.asp" title="HTML5 <form> name 属性">name</a></td>
+    <td><a href="http://www.w3school.com.cn/tags/att_form_name.asp" title="HTML5 <form> name 属性">name</a></td>
     <td><i>form_name</i></td>
     <td>规定表单的名称。</td>
   </tr>
 
   <tr>
-    <td class="html5_new"><a href="/tags/att_form_novalidate.asp" title="HTML5 <form> novalidate 属性">novalidate</a></td>
+    <td class="html5_new"><a href="http://www.w3school.com.cn/tags/att_form_novalidate.asp" title="HTML5 <form> novalidate 属性">novalidate</a></td>
     <td>novalidate</td>
     <td>如果使用该属性，则提交表单时不进行验证。</td>
   </tr>
 
   <tr>
-    <td><a href="/tags/att_form_target.asp" title="HTML5 <form> target 属性">target</a></td>
+    <td><a href="http://www.w3school.com.cn/tags/att_form_target.asp" title="HTML5 <form> target 属性">target</a></td>
     <td>
       <ul>
       <li>_blank</li>
@@ -389,25 +389,25 @@ USA
 </tr>
 
 <tr>
-<td><a href="/tags/att_ol_compact.asp">compact</a></td>
+<td><a href="http://www.w3school.com.cn/tags/att_ol_compact.asp">compact</a></td>
 <td>compact</td>
 <td><p>HTML5 中不支持。HTML 4.01 中不赞成使用。</p><p>规定列表呈现的效果比正常情况更小巧。</p></td>
 </tr>
 
 <tr>
-<td class="html5_new"><a href="/tags/att_ol_reversed.asp">reversed</a></td>
+<td class="html5_new"><a href="http://www.w3school.com.cn/tags/att_ol_reversed.asp">reversed</a></td>
 <td>reversed</td>
 <td>规定列表顺序为降序。(9,8,7...)</td>
 </tr>
 
 <tr>
-<td><a href="/tags/att_ol_start.asp">start</a></td>
+<td><a href="http://www.w3school.com.cn/tags/att_ol_start.asp">start</a></td>
 <td><i>number</i></td>
 <td>规定有序列表的起始值。</td>
 </tr>
 
 <tr>
-<td><a href="/tags/att_ol_type.asp">type</a></td>
+<td><a href="http://www.w3school.com.cn/tags/att_ol_type.asp">type</a></td>
 <td>
     <ul>
     <li>1</li>
