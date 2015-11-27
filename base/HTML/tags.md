@@ -47,10 +47,81 @@ HTML 元素指的是从开始标签（start tag）到结束标签（end tag）�
     <tr>
         <td>元素</td>
         <td>描述</td>
+        <td>元素</td>
+        <td>描述</td>
     </tr>
     <tr>
-        <td>[address](#address)</td>
+        <td>address</td>
         <td>地址:文档或文章的作者/拥有者的联系信息。</td>
+        <td>blockquote</td>
+        <td>块引用</td>
+    </tr>
+    <tr>
+        <td>center </td>
+        <td>地址:文档或文章的作者/拥有者的联系信息。</td>
+        <td>dir</td>
+        <td>目录列表。<em>提示</em>不赞成使用 dir 元素！</td>
+    </tr>
+    <tr>
+        <td>div</td>
+        <td>常用块级容器，定义文档中的分区或节。标签可以把文档分割为独立的、不同的部分。</td>
+        <td>dl</td>
+        <td>定义列表</td>
+        
+    </tr>
+    <tr>
+        <td>fieldset</td>
+        <td>form控制组</td>
+        <td>form</td>
+        <td>交互表单</td>
+    </tr>
+    <tr>
+        <td>h1</td>
+        <td>大标题</td>
+        <td>h2</td>
+        <td>副标题</td>
+    </tr>
+    <tr>
+        <td>h3</td>
+        <td>3级标题</td>
+        <td>h4</td>
+        <td>4级标题</td>
+    </tr>
+    <tr>
+        <td>h5</td>
+        <td>5级标题</td>
+        <td>h6</td>
+        <td>6级标题</td>
+    </tr>
+    <tr>
+        <td>hr</td>
+        <td>水平分隔线</td>
+        <td>isindex</td>
+        <td>input prompt</td>
+    </tr>
+    <tr>
+        <td>menu</td>
+        <td>菜单列表</td>
+        <td>noframes</td>
+        <td>frames可选内容，（对于不支持frame的浏览器显示此区块内容</td>
+    </tr>
+    <tr>
+        <td>noscript</td>
+        <td>可选脚本内容（对于不支持script的浏览器显示此内容）</td>
+        <td>ol</td>
+        <td>排序表单</td>
+    </tr>
+    <tr>
+        <td>p</td>
+        <td>段落</td>
+        <td>pre</td>
+        <td>格式化文本</td>
+    </tr>
+    <tr>
+        <td>table</td>
+        <td>表格</td>
+        <td>ul</td>
+        <td>非排序列表</td>
     </tr>
     </tbody>
 </table>
@@ -67,9 +138,9 @@ HTML 元素指的是从开始标签（start tag）到结束标签（end tag）�
 * form - 交互表单
 * h1 - 大标题
 * h2 - 副标题
-* 3 - 3级标题
+* h3 - 3级标题
 * h4 - 4级标题
-* 5 - 5级标题
+* h5 - 5级标题
 * h6 - 6级标题
 * hr - 水平分隔线
 * isindex - input prompt
