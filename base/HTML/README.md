@@ -93,7 +93,7 @@
 ###数据类型
 * 超文本标记语言定义了多种数据类型的元素内容，如脚本数据和样式表的数据，和众多类型的属性值，包括ID、名称、URI、数字、长度单位、语言、媒体描述符、颜色、字符编码、日期和时间等。所有这些数据类型都是专业的字符数据。
 
-###[常用标签介绍]()
+###[常用标签介绍](https://github.com/sevenhao/front-end-note/blob/master/base/HTML/tags.md)
 
 
 ## <a name="block-and-inline">块级元素和行内元素</a>

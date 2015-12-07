@@ -1,186 +1,92 @@
-# HTML
+# CSS
 
 ## 目录
-* [HTML 介绍](#what)
-* [书写方式](#write)
-* [基本结构](#struct)
-* [头部内容](#head)
-* [标签(也叫元素)](#tag)
-* [块级元素和行内元素](#block-and-inline)
-* [替换元素和非替换元素](#replaced-elements-and-not)
-* [字符集](#word)
+* [CSS 概述](#what)
+* [样式表层叠顺序](#turn)
+* [基础语法](#base)
+* [高级语法](#high)
 * [基础知识学习网站](#reading)
 
-## <a name="what">HTML 介绍</a>
-* 超文本标记语言。HyperText Markup Language的缩写，
-* 多用于网页，用此编写的文件为静态网页，后缀名为：.html或.htm。
+## <a name="what">CSS 概述</a>
+<div>
+<ul>
+<li>CSS 指层叠样式表 (<em>C</em>ascading <em>S</em>tyle <em>S</em>heets)</li>
+<li>样式定义<em>如何显示</em> HTML 元素</li>
+<li>CSS是一门语言<em>（DSL）</em></li>
+<li>把样式添加到 HTML 4.0 中，是为了<em>解决内容与表现分离的问题</em></li>
+<li><em>外部样式表</em>可以极大提高工作效率</li>
+<li>外部样式表通常存储在 <em>CSS 文件</em>中</li>
+<li>多个样式定义可<em>层叠</em>为一</li>
+</ul>
 
-## <a name="write">书写方式</a>
-* 它其实是文本，它需要浏览器的解释，它的编辑器大体可以分为三种，
-  基本文本、文档编辑软件，使用微软自带的记事本或写字板都可以编写，当然，如果你用WPS来编写，也可以。不过存盘时请使用.htm或.html作为扩展名，这样就方便浏览器认出直接解释执行了。
-* 半所见即所得软件，
-  如：FCK-Editer、E-webediter等在线网页编辑器；
-  尤其推荐：Sublime Text代码编辑器（由Jon Skinner开发，Sublime Text）。
-* 所见即所得软件，使用最广泛的编辑器，完全可以一点不懂HTML的知识就可以做出网页，如：
-  FRONTPAGE（出品单位：微软）；
-  Dreamweaver（出品单位：Adobe）。
-* 所见即所得软件与半所见即所得的软件相比，开发速度更快，效率更高，且直观的表现更强。任何地方进行修改只需要刷新即可显示。缺点是生成的代码结构复杂，不利于大型网站的多人协作和精准定位等高级功能的实现。
+</div>
 
+## <a name="turn">样式表层叠顺序</a>
+<div>
+<p>样式表允许以多种方式规定样式信息。样式可以规定在单个的 HTML 元素中，在 HTML 页的头元素中，或在一个外部的 CSS 文件中。甚至可以在同一个 HTML 文档内部引用多个外部样式表。</p>
 
-## <a name="struct">基本结构</a>
-网页是的一系列的标签组成的。    
-例如
-```
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>标题</title>
-</head>
-<body>
-	<h1>My First Heading</h1>
-	<p>My first paragraph.</p>
-</body>
-</html>
-```
-其中
-* DOCTYPE定义了文档类型。`<!DOCTYPE html>`表明这是一个HTML5文档
-* `<html>`和`</html>`之间的内容描述了网页
-* `<head>`和`</head>`之间的内容描述了网页的一些额外信息。不会被显示
-* `<title>`之间的内容描述了网页的标题。会在网页标签上显示
-* `<meta charset="utf-8">`让浏览器用utf-8的编码格式来对文档内容进行编码
-* `<body>`和`</body>`之间的内容描述网页的可见部分
-* `<h1>`和`</h1>`之间的内容描述标题
-* `<p>`和`</p>`之间的内容描述了段落
+<h3>层叠次序(优先权由高到低)</h3>
+<p><strong>当同一个 HTML 元素被不止一个样式定义时，会使用哪个样式呢？</strong></p>
+<p>一般而言，所有的样式会根据下面的规则层叠于一个新的虚拟样式表中，其中数字1 拥有最高的优先权。</p>
 
-## <a name="struct">头部内容</a> 
-```
-<head></head>
-```
-这2个标记符分别表示头部信息的开始和结尾。
-头部中包含的标记是页面的标题、序言、说明等内容，它本身不作为内容来显示，但影响网页显示的效果。
-头部中最常用的标记符是标题标记符和meta标记符，其中标题标记符用于定义网页的标题，它的内容显示在网页窗口的标题栏中，网页标题可被浏览器用作书签和收藏清单。
-
-<table>
-<tbody>
-<tr><td><em>标签</em></td><td><em>描述</em></td></tr>
-<tr><td>head</td><td>定义了文档的信息</td></tr>
-<tr><td>title</td><td>定义了文档的标题</td></tr>
-<tr><td>base</td><td>定义了页面链接标签的默认链接地址</td></tr>
-<tr><td>link</td><td>定义了一个文档和外部资源之间的关系</td></tr>
-<tr><td>meta</td><td>定义了HTML文档中的元数据</td></tr>
-<tr><td>script</td><td>定义了客户端的脚本文件</td></tr>
-<tr><td>style</td><td>定义了HTML文档的样式文件</td></tr>
-</tbody>
-</table>
-
-## <a name="tag">标签(也叫元素)</a>
-标签分为能包含标签内容和不能包含标签内容这两类。    
-
-**能包含内容的标签**由开始标签，结束标签，标签属性，标签的内容组成的。例如：
-```
-<a href="https://github.com/sevenhao" title="sevenhao">sevenhao</a>
-```
-其中:    
-* `<a href="https://github.com/sevenhao" title="sevenhao">`为起始标签
-* `</a>`为结束标签
-* `href`和`title`为标签属性，`https://github.com/sevenhao`和`sevenhao`为属性对应的值。属性的值要由英文的双引号包起来。
-* `sevenhao`为标签的内容。
-
-**不能包含内容的标签**被称为空元素。空元素是在开始标签中关闭的。    
-如 `<br/>`, `<input type="text" />`
-
-###数据类型
-* 超文本标记语言定义了多种数据类型的元素内容，如脚本数据和样式表的数据，和众多类型的属性值，包括ID、名称、URI、数字、长度单位、语言、媒体描述符、颜色、字符编码、日期和时间等。所有这些数据类型都是专业的字符数据。
-
-###[常用标签介绍]()
+<ol>
+<li>内联样式（在 HTML 元素内部）</li>
+<li>内部样式表（位于 &lt;head&gt; 标签内部）</li>
+<li>外部样式表</li>
+<li>浏览器缺省设置</li>
+</ol>
+</div>
 
 
-## <a name="block-and-inline">块级元素和行内元素</a>
-* 块级元素会始终占居一行，而行内元素并不会。  
+## <a name="base">基础语法/a>
+<div>
+<h2>CSS 语法</h2>
 
-* 常见的块级元素有 `div, form, table, header, aside, section, article, figure, figcaption, h1~h6, nav, p, pre, blockqoute, canvas, ol, ul, dl`    
+<p>CSS 规则由两个主要的部分构成：选择器，以及一条或多条声明。</p>
 
-* 常见的行内元素有 `span, a, img, label, input, select, textarea, br, i, em, strong, small, button, sub, sup, code`
+<pre>selector {declaration1; declaration2; ... declarationN }</pre>
 
+<p>选择器通常是您需要改变样式的 HTML 元素。</p>
 
-## <a name="replaced-elements-and-not">替换元素和非替换元素</a>
-* 替换元素就是指浏览器是根据元素的属性来判断具体要显示的内容的元素，比如 img 标签，浏览器是根据其 src 的属性值来读取这个元素所包含的内容的，常见的替换元素还有 input 、textarea、 select、 object、 iframe 和 video 等等，这些元素都有一个共同的特点，就是浏览器并不直接显示其内容，而是通过其某个属性的值来显示具体的内容，比如浏览器会根据 input 中的 type 的属性值来判断到底应该显示单选按钮还是多选按钮亦或是文本输入框。
+<p>每条声明由一个属性和一个值组成。</p>
 
-* 非替换元素，比如 p、label 元素等等，浏览器这是直接显示元素所包含的内容。
+<p>属性（property）是您希望设置的样式属性（style attribute）。每个属性有一个值。属性和值被冒号分开。</p>
 
-## <a name="word">字符集</a>
-<table log-set-param="table_view" width="99%" class="table-view log-set-param"><tbody><tr><th height="0" align="left"><div class="para">显示结果</div>
-</th><th height="0" align="left" valign="top"><div class="para">描述</div>
-</th><th><div class="para">实体名称</div>
-</th><th><div class="para">实体编号</div>
-</th></tr><tr><td align="center" valign="center">　</td><td align="center" valign="center"><div class="para">空格</div>
-</td><td align="center" valign="center"><div class="para">&amp;nbsp;</div>
-</td><td align="center" valign="center">　</td></tr><tr><td align="center" valign="center"><div class="para">&lt;</div>
-</td><td align="center" valign="center"><div class="para">小于号</div>
-</td><td align="center" valign="center"><div class="para">&amp;lt;</div>
-</td><td align="center" valign="center"><div class="para">&lt;&lt; p=""&gt;&lt;!--</div>
-</td></tr><tr><td align="center" valign="center"><div class="para">&gt;</div>
-</td><td align="center" valign="center"><div class="para">大于号</div>
-</td><td align="center" valign="center"><div class="para">&amp;gt;</div>
-</td><td align="center" valign="center"><div class="para">&gt;</div>
-</td></tr><tr><td align="center" valign="center"><div class="para">&amp;</div>
-</td><td align="center" valign="center"><div class="para">和号</div>
-</td><td align="center" valign="center"><div class="para">&amp;amp;</div>
-</td><td align="center" valign="center"><div class="para">&amp;</div>
-</td></tr><tr><td align="center" valign="center"><div class="para">"</div>
-</td><td align="center" valign="center"><div class="para">引号</div>
-</td><td align="center" valign="center"><div class="para">&amp;quot;</div>
-</td><td align="center" valign="center"><div class="para">"</div>
-</td></tr><tr><td align="center" valign="center"><div class="para">'</div>
-</td><td align="center" valign="center"><div class="para">撇号</div>
-</td><td align="center" valign="center"><div class="para">&amp;apos; (IE不支持)</div>
-</td><td align="center" valign="center"><div class="para">'</div>
-</td></tr><tr><td align="center" valign="center"><div class="para">￠</div>
-</td><td align="center" valign="center"><div class="para">分</div>
-</td><td align="center" valign="center"><div class="para">&amp;cent;</div>
-</td><td align="center" valign="center"><div class="para">¢</div>
-</td></tr><tr><td align="center" valign="center"><div class="para">￡</div>
-</td><td align="center" valign="center"><div class="para">镑</div>
-</td><td align="center" valign="center"><div class="para">&amp;pound;</div>
-</td><td align="center" valign="center"><div class="para">£</div>
-</td></tr><tr><td align="center" valign="center"><div class="para">￥</div>
-</td><td align="center" valign="center"><div class="para">日元</div>
-</td><td align="center" valign="center"><div class="para">&amp;yen;</div>
-</td><td align="center" valign="center"><div class="para">¥</div>
-</td></tr><tr><td align="center" valign="center"><div class="para">?</div>
-</td><td align="center" valign="center"><div class="para">欧元</div>
-</td><td align="center" valign="center"><div class="para">&amp;euro;</div>
-</td><td align="center" valign="center"><div class="para">€</div>
-</td></tr><tr><td align="center" valign="center"><div class="para">§</div>
-</td><td align="center" valign="center"><div class="para">小节</div>
-</td><td align="center" valign="center"><div class="para">&amp;sect;</div>
-</td><td align="center" valign="center"><div class="para">§</div>
-</td></tr><tr><td align="center" valign="center"><div class="para">©</div>
-</td><td align="center" valign="center"><div class="para">版权</div>
-</td><td align="center" valign="center">&amp;copy;</td><td align="center" valign="center"><div class="para">©</div>
-</td></tr><tr><td align="center" valign="center"><div class="para">®</div>
-</td><td align="center" valign="center"><div class="para">注册商标</div>
-</td><td align="center" valign="center"><div class="para">&amp;reg;</div>
-</td><td align="center" valign="center"><div class="para">®</div>
-</td></tr><tr><td align="center" valign="center">™</td><td align="center" valign="center"><div class="para">商标</div>
-</td><td align="center" valign="center"><div class="para">&amp;trade;</div>
-</td><td align="center" valign="center"><div class="para">™</div>
-</td></tr><tr><td align="center" valign="center"><div class="para">×</div>
-</td><td align="center" valign="center"><div class="para">乘号</div>
-</td><td align="center" valign="center"><div class="para">&amp;times;</div>
-</td><td align="center" valign="center"><div class="para">×</div>
-</td></tr><tr><td align="center" valign="center"><div class="para">÷</div>
-</td><td align="center" valign="center"><div class="para">除号</div>
-</td><td align="center" valign="center"><div class="para">&amp;divide;</div>
-</td><td align="center" valign="center"><div class="para">÷</div>
-</td></tr></tbody></table>
+<pre>selector {property: value}</pre>
 
-![image](https://github.com/sevenhao/front-end-note/blob/master/base/HTML/word.jpg)
+<p>下面这行代码的作用是将 h1 元素内的文字颜色定义为红色，同时将字体大小设置为 14 像素。</p>
 
+<p>在这个例子中，h1 是选择器，color 和 font-size 是属性，red 和 14px 是值。</p>
+
+<pre>h1 {color:red; font-size:14px;}</pre>
+
+<p>下面的示意图为您展示了上面这段代码的结构：</p>
+
+<img src="/i/ct_css_selector.gif" alt="CSS 语法">
+
+<p class="tip"><span>提示：</span>请使用花括号来包围声明。</p>
+</div>
+
+## <a name="high">高级语法/a>
+<div>
+<h2>选择器的分组</h2>
+<p>你可以对选择器进行分组，这样，被分组的选择器就可以分享相同的声明。用逗号将需要分组的选择器分开。在下面的例子中，我们对所有的标题元素进行了分组。所有的标题元素都是绿色的。</p>
+<pre><code>h1,h2,h3,h4,h5,h6</code> {
+  color: green;
+  }</pre>
+</div>
+
+<div>
+<h2>继承及其问题</h2>
+<p>根据 CSS，子元素从父元素继承属性。但是它并不总是按此方式工作。看看下面这条规则：</p>
+<pre>body {
+     font-family: Verdana, sans-serif;
+     }</pre>
+<p>根据上面这条规则，站点的 body 元素将使用 Verdana 字体（假如访问者的系统中存在该字体的话）。</p>
+<p>通过 CSS 继承，子元素将继承最高级元素（在本例中是 body）所拥有的属性（这些子元素诸如 p, td, ul, ol, ul, li, dl, dt,和 dd）。不需要另外的规则，所有 body 的子元素都应该显示 Verdana 字体，子元素的子元素也一样。并且在大部分的现代浏览器中，也确实是这样的。</p>
+<p>但是在那个浏览器大战的血腥年代里，这种情况就未必会发生，那时候对标准的支持并不是企业的优先选择。比方说，Netscape 4 就不支持继承，它不仅忽略继承，而且也忽略应用于 body 元素的规则。IE/Windows 直到 IE6 还存在相关的问题，在表格内的字体样式会被忽略。我们又该如何是好呢？</p>
+</div>
 
 ## <a name="reading">基础知识学习网站</a>
-* [w3school](http://www.w3school.com.cn/h.asp)
+* [w3school](http://www.w3school.com.cn/css/index.asp)
 * [菜鸟教程](http://www.runoob.com/html/html-tutorial.html)
-* [WWW万维网](http://baike.baidu.com/subview/1453/11336725.htm?fromtitle=%E7%8E%AF%E7%90%83%E4%BF%A1%E6%81%AF%E7%BD%91&fromid=9377238&type=syn)
-* [什么是超文本？](http://www.w3school.com.cn/tags/tag_term_hypertext.asp)
