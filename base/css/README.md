@@ -38,7 +38,7 @@
 </div>
 
 
-## <a name="base">基础语法/a>
+## <a name="base">基础语法</a>
 <div>
 <h2>CSS 语法</h2>
 
