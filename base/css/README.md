@@ -62,7 +62,7 @@
 
 <p>下面的示意图为您展示了上面这段代码的结构：</p>
 
-<img src="/i/ct_css_selector.gif" alt="CSS 语法">
+<img src="https://github.com/sevenhao/front-end-note/blob/master/base/css/ct_css_selector.gif" alt="CSS 语法">
 
 <p class="tip"><span>提示：</span>请使用花括号来包围声明。</p>
 </div>
