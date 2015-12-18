@@ -6,7 +6,7 @@ CSS样式表继承指的是，特定的CSS属性向下传递到子孙元素。
 
 ### 会继承的样式规则
 会继承的样式主要包括：
-* 字体相关的：
+> * 字体相关的：
        * font-family(字体系列), 
        * font-size(继承计算后的值), 
        * font-style(斜体、倾斜或正常字体),
@@ -17,33 +17,33 @@ CSS样式表继承指的是，特定的CSS属性向下传递到子孙元素。
        * line-height（行间的距离）
 <br>
 > * 文本：
-        * text-indent(首行缩进), 
-        * text-align(水平对齐方式), 
-        * layout-flow, 
-        * writing-mode(lr-tb：从左向右，从上往下;tb-rl：从上往下，从右向左), 
-        * white-space(如何处理元素内的空白), 
-        * word-wrap(允许长单词换行到下一行), 
-        * text-kashida-space, 
-        * layout-grid, 
-        * layout-grid-char, 
-        * layout-grid-char-spacing, 
-        * layout-grid-line, 
-        * layout-grid-mode, 
-        * layout-grid-type
+       * text-indent(首行缩进), 
+       * text-align(水平对齐方式), 
+       * layout-flow, 
+       * writing-mode(lr-tb：从左向右，从上往下;tb-rl：从上往下，从右向左), 
+       * white-space(如何处理元素内的空白), 
+       * word-wrap(允许长单词换行到下一行), 
+       * text-kashida-space, 
+       * layout-grid, 
+       * layout-grid-char, 
+       * layout-grid-char-spacing, 
+       * layout-grid-line, 
+       * layout-grid-mode, 
+       * layout-grid-type
 <br>
 > * 列表相关的：
-        * list-style-image(属性使用图像来替换列表项的标记，[实例](http://www.w3school.com.cn/cssref/pr_list-style-image.asp)), 
-        * list-style-position（何处放置列表项标记）,
-        * list-style-type（列表项标记的类型,[实例](http://www.w3school.com.cn/tiy/t.asp?f=csse_list-style-type_test)）, 
-        * list-style(一个声明中设置所有的列表属性,按顺序设置如下属性：list-style-type、list-style-position、list-style-image)
+       * list-style-image(属性使用图像来替换列表项的标记，[实例](http://www.w3school.com.cn/cssref/pr_list-style-image.asp)), 
+       * list-style-position（何处放置列表项标记）,
+       * list-style-type（列表项标记的类型,[实例](http://www.w3school.com.cn/tiy/t.asp?f=csse_list-style-type_test)）, 
+       * list-style(一个声明中设置所有的列表属性,按顺序设置如下属性：list-style-type、list-style-position、list-style-image)
 <br>
 > * 表格：
-        * border-collapse(表格的边框是否被合并为一个单一的边框,[实例](http://www.w3school.com.cn/tiy/t.asp?f=csse_table_border-collapse)), 
-        * border-spacing(相邻单元格的边框间的距离,[实例](http://www.w3school.com.cn/tiy/t.asp?f=csse_table_border-spacing)), 
-        * caption-side(设置表格标题的位置), 
-        * empty-cells(是否显示表格中的空单元格), 
-        * table-layout, 
-        * speak-header
+       * border-collapse(表格的边框是否被合并为一个单一的边框,[实例](http://www.w3school.com.cn/tiy/t.asp?f=csse_table_border-collapse)), 
+       * border-spacing(相邻单元格的边框间的距离,[实例](http://www.w3school.com.cn/tiy/t.asp?f=csse_table_border-spacing)), 
+       * caption-side(设置表格标题的位置), 
+       * empty-cells(是否显示表格中的空单元格), 
+       * table-layout, 
+       * speak-header
 
 ### 选择器权重
 各类选择器的权重得分
