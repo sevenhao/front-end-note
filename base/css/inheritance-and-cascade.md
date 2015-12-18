@@ -6,7 +6,7 @@ CSS样式表继承指的是，特定的CSS属性向下传递到子孙元素。
 
 ### 会继承的样式规则
 会继承的样式主要包括：
->  * 字体相关的：
+* 字体相关的：
        * font-family(字体系列), 
        * font-size(继承计算后的值), 
        * font-style(斜体、倾斜或正常字体),
@@ -16,7 +16,7 @@ CSS样式表继承指的是，特定的CSS属性向下传递到子孙元素。
        * letter-spacing(字符间距),
        * line-height（行间的距离）
 <br>
-> * 文本：
+* 文本：
        * text-indent(首行缩进), 
        * text-align(水平对齐方式), 
        * layout-flow, 
@@ -31,13 +31,13 @@ CSS样式表继承指的是，特定的CSS属性向下传递到子孙元素。
        * layout-grid-mode, 
        * layout-grid-type
 <br>
-> * 列表相关的：
+* 列表相关的：
        * list-style-image(属性使用图像来替换列表项的标记，[实例](http://www.w3school.com.cn/cssref/pr_list-style-image.asp)), 
        * list-style-position（何处放置列表项标记）,
        * list-style-type（列表项标记的类型,[实例](http://www.w3school.com.cn/tiy/t.asp?f=csse_list-style-type_test)）, 
        * list-style(一个声明中设置所有的列表属性,按顺序设置如下属性：list-style-type、list-style-position、list-style-image)
 <br>
-> * 表格：
+* 表格：
        * border-collapse(表格的边框是否被合并为一个单一的边框,[实例](http://www.w3school.com.cn/tiy/t.asp?f=csse_table_border-collapse)), 
        * border-spacing(相邻单元格的边框间的距离,[实例](http://www.w3school.com.cn/tiy/t.asp?f=csse_table_border-spacing)), 
        * caption-side(设置表格标题的位置), 
