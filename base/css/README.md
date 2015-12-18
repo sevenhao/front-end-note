@@ -5,6 +5,7 @@
 * [样式表层叠顺序](#turn)
 * [基础语法](#base)
 * [高级语法](#high)
+* [CSS样式](https://github.com/sevenhao/front-end-note/edit/master/base/css/cssstyle.md)
 * [基础知识学习网站](#reading)
 
 ## <a name="what">CSS 概述</a>
