@@ -6,15 +6,15 @@ CSS样式表继承指的是，特定的CSS属性向下传递到子孙元素。
 
 ### 会继承的样式规则
 会继承的样式主要包括：
-> * 字体相关的：
-        * font-family(字体系列), 
-        * font-size(继承计算后的值), 
-        * font-style(斜体、倾斜或正常字体),
-        * font-variant(小型大写字母), 
-        * font-weight(normal,bold,bolder,lighter), 
-        * font(font:italic bold 12px/20px arial,sans-serif;) ,
-        * letter-spacing(字符间距),
-        * line-height（行间的距离）
+* 字体相关的：
+       * font-family(字体系列), 
+       * font-size(继承计算后的值), 
+       * font-style(斜体、倾斜或正常字体),
+       * font-variant(小型大写字母), 
+       * font-weight(normal,bold,bolder,lighter), 
+       * font(font:italic bold 12px/20px arial,sans-serif;) ,
+       * letter-spacing(字符间距),
+       * line-height（行间的距离）
 <br>
 > * 文本：
         * text-indent(首行缩进), 
