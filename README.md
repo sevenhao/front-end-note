@@ -170,6 +170,7 @@
 ####JS and Jquery
 * 基础
     * [常用正则表达式大全](http://www.liubiner.com/?p=262)
+    * [正则表达式入门](http://deerchao.net/tutorials/regex/regex.htm)
     * [JavaScript实现类的private、protected、public、static以及继承](http://blog.csdn.net/yorhomwang/article/details/47807969)
     
     * [Javascript引擎单线程机制及setTimeout执行原理说明](http://www.suchso.com/projecteactual/Javascript-setTimeout-timer.html)
@@ -255,7 +256,6 @@
  * [HTML 标签检查](http://i.links.cn/checkhtmltag.asp)
  * [JSON 在线校验格式化](http://www.bejson.com/)
  * [HTML JS CSS在线校验格式化](http://tool.oschina.net/codeformat/js/)
- * [正则表达式检验](http://www.regexpal.com/)
 
 * 代码展示
  * [演示CSS](http://dabblet.com/)
@@ -275,5 +275,9 @@
  * [CSS 在线生成工具——enjoycss](http://enjoycss.com/)
  * [CSS 小工具集合](http://linxz.github.io/tianyizone/)
  * [浏览器同步测试工具——Browsersync](http://www.browsersync.cn/#install)
+
+* 正则表达式
+ * [正则表达式在线调试](http://refiddle.com/)
+ * [正则表达式检验](http://www.regexpal.com/)
 
 
