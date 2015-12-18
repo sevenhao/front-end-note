@@ -129,6 +129,8 @@ body {background-image: url("images/back40.gif");}
 <p>但是在那个浏览器大战的血腥年代里，这种情况就未必会发生，那时候对标准的支持并不是企业的优先选择。比方说，Netscape 4 就不支持继承，它不仅忽略继承，而且也忽略应用于 body 元素的规则。IE/Windows 直到 IE6 还存在相关的问题，在表格内的字体样式会被忽略。我们又该如何是好呢？</p>
 </div>
 
+<h2><a href="https://github.com/sevenhao/front-end-note/blob/master/base/css/inheritance-and-cascade.md">样式继承详细介绍</a></h2>
+
 ## <a name="reading">基础知识学习网站</a>
 * [w3school](http://www.w3school.com.cn/css/index.asp)
 * [菜鸟教程](http://www.runoob.com/html/html-tutorial.html)
