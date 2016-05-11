@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" name="viewport">
+  <title>竖向剧中</title>
+  <style>
+    .flexbox-container {
+      padding: 20px;
+      background: #eee;
+
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      -webkit-box-align: center;
+
+      align-items: center;
+    }
+
+    .flexbox-vert-item {
+      width: 300px;
+      background: #fefefe;
+      margin-right: 20px;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+<div>
+  <h1>竖向剧中的方法</h1>
+  <div>
+    <h2>
+      使用Flexbox实现CSS竖向居中
+    </h2>
+    <div>
+      <p>竖向居中需要一个父元素和一个子元素合作完成</p>
+    </div>
+    <div class="flexbox-container">
+
+      <div class="flexbox-vert-item">Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah </div>
+      <div class="flexbox-vert-item">Blah blah blah blah blah blah blah blah blah </div>
+      <div class="flexbox-vert-item">Blah blah</div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
