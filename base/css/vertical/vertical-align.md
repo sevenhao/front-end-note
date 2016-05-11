@@ -74,7 +74,7 @@ align-items: center;
   <div style="display:table-cell; vertical-align:middle"> ... </div>
   ```
   <p>在浏览器中，它们的现实效果是下面这样：</p>
-  
+  ![image](https://github.com/sevenhao/front-end-note/blob/master/base/css/vertical/vertical.png)
   ```
 
   ```
