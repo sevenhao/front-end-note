@@ -5,7 +5,7 @@
 * [样式表层叠顺序](#turn)
 * [基础语法](#base)
 * [高级语法](#high)
-* [CSS样式](https://github.com/sevenhao/front-end-note/edit/master/base/css/cssstyle.md)
+* [CSS样式](#style)
 * [基础知识学习网站](#reading)
 
 ## <a name="what">CSS 概述</a>
@@ -131,6 +131,11 @@ body {background-image: url("images/back40.gif");}
 </div>
 
 <h2><a href="https://github.com/sevenhao/front-end-note/blob/master/base/css/inheritance-and-cascade.md">样式继承详细介绍</a></h2>
+
+##<a name="style">CSS样式</a>
+* [CSS样式](https://github.com/sevenhao/front-end-note/edit/master/base/css/cssstyle.md)
+* [CSS 常见样式问题解决方法](https://github.com/sevenhao/front-end-note/edit/master/base/css/cssfaq.md)
+
 
 ## <a name="reading">基础知识学习网站</a>
 * [w3school](http://www.w3school.com.cn/css/index.asp)
