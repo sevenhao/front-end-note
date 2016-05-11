@@ -41,9 +41,9 @@
 
 <p>
 因为上面使用了浏览器引擎前缀，所以看起来有些复杂，但实际上本质是非常简单的，也就3句代码。
+</p>
 ```
 display: flex;
 flex-align: center;
 align-items: center;
 ```
-</p>
