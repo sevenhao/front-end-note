@@ -47,3 +47,13 @@ display: flex;
 flex-align: center;
 align-items: center;
 ```
+
+<div style="display: inline-block;margin-right: 20px;padding-bottom: 30px;margin-left: 2em;">
+    <a style="color: #ffffff;text-decoration: none;font-weight: normal;
+    background-color: #24890d;
+    border: 0;
+    padding: 10px 30px 11px;
+    text-transform: uppercase;
+    vertical-align: bottom;
+    border-radius: 2px;"  href="http://sevenhao.github.io/case/case-about-css/Flexbox-vertical.html">示例演示</a>
+  </div>
