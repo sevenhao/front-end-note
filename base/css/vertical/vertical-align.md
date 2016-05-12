@@ -82,7 +82,7 @@ align-items: center;
   
   ```
     <div style="border: 1px solid #e0e0e0">
-      <img align="middle" src="tab_home.png">
+      <img valign="middle" src="tab_home.png">
       <img style="vertical-align:middle"  src="tab_home_pre.png">
       <span style="display:inline-block; vertical-align:middle"> 示例 </span>
     </div>
@@ -90,11 +90,13 @@ align-items: center;
   
   ```
     <div style="border: 1px solid #e0e0e0;margin-top: 10px;">
-      <img align="middle" src="tab_home.png">
+      <img valign="middle" src="tab_home.png">
       <img style="vertical-align:middle"  src="tab_home_pre.png">
       <span style="display:inline-block; vertical-align:bottom"> 示例 </span>
     </div>
   ```
-  <p>在浏览器中，它们的现实效果是下面这样：</p>
+  <p>用<pre><span style="display:inline-block; vertical-align:middle"> 示例 </span></pre>和<pre><span style="display:inline-block; vertical-align:bottom"> 示例 </span></pre>作为例子，在浏览器中，它们的现实效果是下面这样：</p>
   ![image](https://github.com/sevenhao/front-end-note/blob/master/base/css/vertical/inline-vertical-align.png)
+  
+  <p>由此可见，valign="middle"和vertical-align:bottom用在inline元素上的效果是一样。</p>
   
