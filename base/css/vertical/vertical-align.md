@@ -58,20 +58,17 @@ flex-align: center;
 align-items: center;
 ```
 
-<div style="display: inline-block;margin-right: 20px;padding-bottom: 30px;margin-left: 2em;">
-    <a style="color: #ffffff;text-decoration: none;font-weight: normal;
-    background-color: #24890d;
-    border: 0;
-    padding: 10px 30px 11px;
-    text-transform: uppercase;
-    vertical-align: bottom;
-    border-radius: 2px;"  href="http://sevenhao.github.io/case/case-about-css/Flexbox-vertical.html">示例演示</a>
-  </div>
-  
-## <a name="vercital2">二、理解vertical-align或“如何竖向居中”</a>
+<div >
+    <a href="http://sevenhao.github.io/case/case-about-css/Flexbox-vertical.html">示例演示</a>
+</div>
+
+
+## <a name="vercital2">二、理解vertical-align或如何竖向居中</a> 
+
   <div>
     <p>vertical-align 不同使用场合的理解/p>
   </div>
+ 
   
 ### <a name="va1">1、Table单元格中的vertical-align</a>
 
@@ -111,6 +108,7 @@ align-items: center;
   ![image](https://github.com/sevenhao/front-end-note/blob/master/base/css/vertical/inline-vertical-align.png)
   
   <p>由此可见，valign="middle"和vertical-align:bottom用在inline元素上的效果是一样。</p>
+  
   
   
  ### <a name="va3">3、vertical-align在其它元素上的效果</a>
