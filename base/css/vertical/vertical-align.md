@@ -81,7 +81,20 @@ align-items: center;
   <p>当vertical-align被应用的到inline元素上时，它的作用却是类似(老的，不鼓励使用)的valign属性对<img>的作用一样。在现代浏览器里，下面的这三种写法的效果是一样的：</p>
   
   ```
-  <img align="middle" ...>
-  <img style="vertical-align:middle" ...>
-  <span style="display:inline-block; vertical-align:middle"> ... </span>
+    <div style="border: 1px solid #e0e0e0">
+      <img align="middle" src="tab_home.png">
+      <img style="vertical-align:middle"  src="tab_home_pre.png">
+      <span style="display:inline-block; vertical-align:middle"> 示例 </span>
+    </div>
   ```
+  
+  ```
+    <div style="border: 1px solid #e0e0e0;margin-top: 10px;">
+      <img align="middle" src="tab_home.png">
+      <img style="vertical-align:middle"  src="tab_home_pre.png">
+      <span style="display:inline-block; vertical-align:bottom"> 示例 </span>
+    </div>
+  ```
+  <p>在浏览器中，它们的现实效果是下面这样：</p>
+  ![image](https://github.com/sevenhao/front-end-note/blob/master/base/css/vertical/inline-vertical-align.png)
+  
