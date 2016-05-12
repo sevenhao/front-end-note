@@ -1,8 +1,17 @@
 #web前端如何实现CSS竖向居中
 
-<h2>
-  使用Flexbox实现CSS竖向居中
-</h2>
+## 目录
+* [使用Flexbox实现CSS竖向居中](#vercital1)
+* [理解vertical-align或“如何竖向居中”](#vercital2)
+  * [Table单元格中的vertical-align](#va1)
+  * [vertical-align在inline元素上效果](#va2)
+  * [vertical-align在其它元素上的效果](#va3)
+* [竖向居中最简单的方法(三行CSS3代码)](#vercital3)
+* [常见简单垂直剧中方法比较](#vercital4)
+
+
+## <a name="vercital1">一、使用Flexbox实现CSS竖向居中</a>
+  
 <div>
   <p>竖向居中需要一个父元素和一个子元素合作完成</p>
 </div>
@@ -59,12 +68,11 @@ align-items: center;
     border-radius: 2px;"  href="http://sevenhao.github.io/case/case-about-css/Flexbox-vertical.html">示例演示</a>
   </div>
   
-  
-  <h2>理解vertical-align或“如何竖向居中”</h2>
+## <a name="vercital2">二、理解vertical-align或“如何竖向居中”</a>
   <div>
     <p>vertical-align 不同使用场合的理解/p>
   </div>
-  <h3>1、Table单元格中的vertical-align</h3>
+  ### <a name="va1">1、Table单元格中的vertical-align</a>
   <p>
     当出现在Table单元格中时，vertical-align的效果会如大多数人的预期一样，它会跟(老的，不鼓励使用)的valign属性的作用一样。在现代浏览器里，下面的这三种写法的效果是一样的：
   </p>
@@ -77,7 +85,7 @@ align-items: center;
   ![image](https://github.com/sevenhao/front-end-note/blob/master/base/css/vertical/vertical.png)
   
   
-  <h3>2、vertical-align在inline元素上效果</h3>
+  ### <a name="va2">1、vertical-align在inline元素上效果</a>
   <p>当vertical-align被应用的到inline元素上时，它的作用却是类似(老的，不鼓励使用)的valign属性对<img>的作用一样。在现代浏览器里，下面的这三种写法的效果是一样的：</p>
   
   ```
@@ -101,7 +109,7 @@ align-items: center;
   <p>由此可见，valign="middle"和vertical-align:bottom用在inline元素上的效果是一样。</p>
   
   
-   <h3>3、vertical-align在其它元素上的效果</h3>
+  ### <a name="va3">3、vertical-align在其它元素上的效果</a>
   <p>
     将vertical-align属性应用到一个block元素(例如标准的<div>)上时，大多数浏览器会依照继承的原则，将所有它的inline子元素也应用这个属性。那么，如何将一个元素竖向居中？
   </p>
@@ -176,8 +184,7 @@ align-items: center;
     <a href="http://sevenhao.github.io/case/case-about-css/block-vertical-eg2.html">示例演示</a>
   </div>
 
-
-<h2>三、竖向居中最简单的方法(三行CSS3代码)</h2>
+## <a name="vercital3">三、竖向居中最简单的方法(三行CSS3代码)</a>
 <div>
   <p>只用三行CSS3代码，就会完美的让任何元素竖向居中</p>
 </div>
@@ -214,3 +221,6 @@ align-items: center;
  <div >
     <a href="http://sevenhao.github.io/case/case-about-css/justify-content-vertical.html">示例演示</a>
 </div>
+
+
+## <a name="vercital4">常见简单垂直剧中方法比较</a>
