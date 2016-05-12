@@ -118,8 +118,58 @@ align-items: center;
   * 给子元素设定position:absolute 以及 top:50%，让子元素移动到父元素内部上下居中的位置。
   * 给子元素设定 margin-top:-yy，这里的 yy 的值是你的子元素的高度的一半，弥补居中时的偏差。
 
+  ```CSS代码
+  <style type="text/css">
+    #myoutercontainer {
+      position: relative;
+      height: 13em;
+      border: 1px solid black;
+    }
+    #myinnercontainer {
+      position: absolute;
+      top: 50%;
+      height: 6em;
+      margin-top: -3em;
+    }
+  </style>
   ```
-  <td valign="middle"> <!-- 这是一种会逐渐被淘汰的用法 --> </td>
-  <td style="vertical-align:middle"> ... </td>
-  <div style="display:table-cell; vertical-align:middle"> ... </div>
+  
+  
+   ```HTML代码
+  <div id="myoutercontainer">
+    <div id="myinnercontainer">
+      <p>Hi,我竖向居中了！</p>
+      <p>感觉很犀利的哦!</p>
+    </div>
+  </div>
   ```
+  
+  <!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" name="viewport">
+  <title>竖向剧中</title>
+  <style type="text/css">
+    #myoutercontainer {
+      position: relative;
+      height: 13em;
+      border: 1px solid black;
+    }
+    #myinnercontainer {
+      position: absolute;
+      top: 50%;
+      height: 6em;
+      margin-top: -3em;
+    }
+  </style>
+</head>
+<body>
+<div id="myoutercontainer">
+  <div id="myinnercontainer">
+    <p>Hi,我竖向居中了！</p>
+    <p>感觉很犀利的哦!</p>
+  </div>
+</div>
+</body>
+</html>
