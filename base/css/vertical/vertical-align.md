@@ -154,9 +154,10 @@ align-items: center;
   * 需要竖向居中的内容只有一行文字。
   * 需要对父元素设定固定的高度。
   
-#####方法
-  * 将父元素的line-height设置为你想要的高度
   
+#####方法
+  * 将父元素的line-height设置为你想要的高度。
+
 
   ```CSS代码
   <style type="text/css">
