@@ -107,12 +107,13 @@ align-items: center;
   </p>
   
   <h4>方法一</h4>
-  #####前提
+  
+#####前提
   * 你需要把想要竖向居中的内容放到一个block元素中，并给这个想要居中的元素指定固定的高度。
   * 绝对定位(absolutely-position)这个元素。(通常这样做是没问题的，因为你这个想要居中的元素的父元素仍然可以使用相对位置)。
-  * 
   
-  #####方法
+  
+#####方法
   * 指定父元素为position:relative 或 position:absolute。
   * 给子元素指定固定的高度。
   * 给子元素设定position:absolute 以及 top:50%，让子元素移动到父元素内部上下居中的位置。
@@ -145,4 +146,31 @@ align-items: center;
   ```
   <div >
     <a href="http://sevenhao.github.io/case/case-about-css/block-vertical-eg1.html">示例演示</a>
+  </div>
+  
+  
+  <h4>方法二</h4>
+  #####前提
+    * 需要竖向居中的内容只有一行文字。
+    * 需要对父元素设定固定的高度。
+  
+  
+  #####方法
+    * 将父元素的line-height设置为你想要的高度
+  
+  ```CSS代码
+  <style type="text/css">
+    #myoutercontainer2 {
+      line-height: 4em;
+      border: 1px solid black;
+    }
+  </style>
+  ```
+  
+  
+   ```HTML代码
+  <div id="myoutercontainer2">嗨，我竖向居中了，耶！</div>
+  ```
+  <div >
+    <a href="http://sevenhao.github.io/case/case-about-css/block-vertical-eg2.html">示例演示</a>
   </div>
