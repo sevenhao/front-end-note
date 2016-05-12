@@ -144,13 +144,7 @@ align-items: center;
   </div>
   ```
   
-  <!DOCTYPE html>
-<html>
-<head lang="en">
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" name="viewport">
-  <title>竖向剧中</title>
-  <style type="text/css">
+ <style type="text/css">
     #myoutercontainer {
       position: relative;
       height: 13em;
@@ -163,13 +157,9 @@ align-items: center;
       margin-top: -3em;
     }
   </style>
-</head>
-<body>
-<div id="myoutercontainer">
-  <div id="myinnercontainer">
-    <p>Hi,我竖向居中了！</p>
-    <p>感觉很犀利的哦!</p>
+  <div id="myoutercontainer">
+    <div id="myinnercontainer">
+      <p>Hi,我竖向居中了！</p>
+      <p>感觉很犀利的哦!</p>
+    </div>
   </div>
-</div>
-</body>
-</html>
