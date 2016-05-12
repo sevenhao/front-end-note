@@ -175,3 +175,42 @@ align-items: center;
   <div >
     <a href="http://sevenhao.github.io/case/case-about-css/block-vertical-eg2.html">示例演示</a>
   </div>
+
+
+<h2>三、竖向居中最简单的方法(三行CSS3代码)</h2>
+<div>
+  <p>只用三行CSS3代码，就会完美的让任何元素竖向居中</p>
+</div>
+
+ ```CSS代码
+.parent-element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #a3c8fc;
+  }
+ ```
+ 
+  ```HTML代码
+<div class="parent-element">
+  <p class="element ">hello world!
+  </p>
+</div>
+ ```
+ 
+ <p>如果想兼容老式的浏览器，你需要在transform属性前添加浏览器引擎前缀。</p>
+```CSS代码
+.parent-element {
+    display: flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    -moz-justify-content: center;
+    align-items: center;
+    background: #a3c8fc;
+  }
+ ```
+ 
+ <div >
+    <a href="http://sevenhao.github.io/case/case-about-css/justify-content-vertical.html">示例演示</a>
+</div>
