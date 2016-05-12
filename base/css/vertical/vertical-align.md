@@ -95,7 +95,7 @@ align-items: center;
       <span style="display:inline-block; vertical-align:bottom"> 示例 </span>
     </div>
   ```
-  <p>用<pre><span style="display:inline-block; vertical-align:middle"> 示例 </span></pre>和<pre><span style="display:inline-block; vertical-align:bottom"> 示例 </span></pre>作为例子，在浏览器中，它们的现实效果是下面这样：</p>
+  <p>用<code><span style="display:inline-block; vertical-align:middle"> 示例 </span></code>和<code><span style="display:inline-block; vertical-align:bottom"> 示例 </span></code>作为例子，在浏览器中，它们的现实效果是下面这样：</p>
   ![image](https://github.com/sevenhao/front-end-note/blob/master/base/css/vertical/inline-vertical-align.png)
   
   <p>由此可见，valign="middle"和vertical-align:bottom用在inline元素上的效果是一样。</p>
@@ -143,23 +143,6 @@ align-items: center;
     </div>
   </div>
   ```
-  
- <style type="text/css">
-    #myoutercontainer {
-      position: relative;
-      height: 13em;
-      border: 1px solid black;
-    }
-    #myinnercontainer {
-      position: absolute;
-      top: 50%;
-      height: 6em;
-      margin-top: -3em;
-    }
-  </style>
-  <div id="myoutercontainer">
-    <div id="myinnercontainer">
-      <p>Hi,我竖向居中了！</p>
-      <p>感觉很犀利的哦!</p>
-    </div>
+  <div >
+    <a href="http://sevenhao.github.io/case/case-about-css/block-vertical-eg1.html">示例演示</a>
   </div>
