@@ -150,14 +150,15 @@ align-items: center;
   
   
   <h4>方法二</h4>
-  #####前提
-    * 需要竖向居中的内容只有一行文字。
-    * 需要对父元素设定固定的高度。
+#####前提
+  * 需要竖向居中的内容只有一行文字。
+  * 需要对父元素设定固定的高度。
   
   
-  #####方法
-    * 将父元素的line-height设置为你想要的高度
+#####方法
+  * 将父元素的line-height设置为你想要的高度
   
+
   ```CSS代码
   <style type="text/css">
     #myoutercontainer2 {
@@ -166,7 +167,7 @@ align-items: center;
     }
   </style>
   ```
-  
+
   
    ```HTML代码
   <div id="myoutercontainer2">嗨，我竖向居中了，耶！</div>
