@@ -64,7 +64,7 @@ align-items: center;
   <div>
     <p>vertical-align 不同使用场合的理解/p>
   </div>
-  <h3>Table单元格中的vertical-align</h3>
+  <h3>1、Table单元格中的vertical-align</h3>
   <p>
     当出现在Table单元格中时，vertical-align的效果会如大多数人的预期一样，它会跟(老的，不鼓励使用)的valign属性的作用一样。在现代浏览器里，下面的这三种写法的效果是一样的：
   </p>
@@ -77,7 +77,7 @@ align-items: center;
   ![image](https://github.com/sevenhao/front-end-note/blob/master/base/css/vertical/vertical.png)
   
   
-  <h3>vertical-align在inline元素上效果</h3>
+  <h3>2、vertical-align在inline元素上效果</h3>
   <p>当vertical-align被应用的到inline元素上时，它的作用却是类似(老的，不鼓励使用)的valign属性对<img>的作用一样。在现代浏览器里，下面的这三种写法的效果是一样的：</p>
   
   ```
@@ -100,3 +100,26 @@ align-items: center;
   
   <p>由此可见，valign="middle"和vertical-align:bottom用在inline元素上的效果是一样。</p>
   
+  
+   <h3>3、vertical-align在其它元素上的效果</h3>
+  <p>
+    将vertical-align属性应用到一个block元素(例如标准的<div>)上时，大多数浏览器会依照继承的原则，将所有它的inline子元素也应用这个属性。那么，如何将一个元素竖向居中？
+  </p>
+  
+  <h4>方法一</h4>
+  #####前提
+  * 你需要把想要竖向居中的内容放到一个block元素中，并给这个想要居中的元素指定固定的高度。
+  * 绝对定位(absolutely-position)这个元素。(通常这样做是没问题的，因为你这个想要居中的元素的父元素仍然可以使用相对位置)。
+  * 
+  
+  #####方法
+  * 指定父元素为position:relative 或 position:absolute。
+  * 给子元素指定固定的高度。
+  * 给子元素设定position:absolute 以及 top:50%，让子元素移动到父元素内部上下居中的位置。
+  * 给子元素设定 margin-top:-yy，这里的 yy 的值是你的子元素的高度的一半，弥补居中时的偏差。
+
+  ```
+  <td valign="middle"> <!-- 这是一种会逐渐被淘汰的用法 --> </td>
+  <td style="vertical-align:middle"> ... </td>
+  <div style="display:table-cell; vertical-align:middle"> ... </div>
+  ```
