@@ -8,7 +8,7 @@
 
 
 ## <a name="example">应用实例<a>
-[常用实例](https://github.com/sevenhao/front-end-note/edit/master/base/js/exweb.md)
+[常用实例](https://github.com/sevenhao/front-end-note/blob/master/base/js/exweb.md)
 
 ## <a name="reading">基础知识学习网站</a>
 * [常用正则表达式大全](http://www.liubiner.com/?p=262)
