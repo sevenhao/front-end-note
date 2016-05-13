@@ -3,6 +3,17 @@
 ####[插件](https://github.com/sevenhao/front-end-note/tree/master/plugs)
 ####[框架](https://github.com/sevenhao/front-end-note/tree/master/frame)
 ####[博客](https://github.com/sevenhao/front-end-note/tree/master/blogs)
+###前端技术
+####[HTML](https://github.com/sevenhao/front-end-note/tree/master/base/HTML)
+
+####[HTML5](https://github.com/sevenhao/front-end-note/tree/master/base/HTML/HTML5)
+
+####[CSS](https://github.com/sevenhao/front-end-note/tree/master/base/css)
+
+####[JS](https://github.com/sevenhao/front-end-note/edit/master/base/js)
+
+##### [Jquery](https://github.com/sevenhao/front-end-note/edit/master/base/jQuery)
+
 
 ##技术网站
 ###基础教程
@@ -47,23 +58,7 @@
   * [JS函数式编程指南](https://www.gitbook.com/book/llh911001/mostly-adequate-guide-chinese/details)
 
 
-###前端技术
-####[HTML](https://github.com/sevenhao/front-end-note/tree/master/base/HTML)
-
-####[HTML5](https://github.com/sevenhao/front-end-note/tree/master/base/HTML/HTML5)
-
-####[CSS](https://github.com/sevenhao/front-end-note/tree/master/base/css)
-
-####[JS](https://github.com/sevenhao/front-end-note/edit/master/base/js)
-
-##### [Jquery](https://github.com/sevenhao/front-end-note/edit/master/base/jQuery)
-  
-
-
-
-
-
-####优化
+###优化
 * [移动H5前端性能优化指南](http://mp.weixin.qq.com/s?__biz=MTEwNTM0ODI0MQ==&mid=211118361&idx=1&sn=6fbd14cd905ffca677aa89d31a343eaa&scene=5#rd)
 * [移动时代的前端加密 ](http://div.io/topic/1220)
 * [浅淡HTML5移动Web开发](http://sc.chinaz.com/info/130410113358.htm)
