@@ -180,13 +180,13 @@ content 参数：
 <meta name="apple-mobile-web-app-title" content="标题"> <!-- 添加到主屏后的标题（iOS 6 新增） -->
 ```
 
-* 是否启用 WebApp 全屏模式
+#### 是否启用 WebApp 全屏模式
 ```
 <meta name="apple-mobile-web-app-capable" content="yes"> <!-- 是否启用 WebApp 全屏模式 -->
 ```
 
 
-* 设置状态栏的背景颜色
+#### 设置状态栏的背景颜色
 ```
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"> <!-- 设置状态栏的背景颜色，只有在 `"apple-mobile-web-app-capable" content="yes"` 时生效 -->
 ```
@@ -204,22 +204,22 @@ content 参数：
 <p>如果设置为 <code>black-translucent</code> ,网页内容充满整个屏幕，顶部会被状态栏遮挡。</p>
 
 
-* 禁止数字自动识别为电话号码
+#### 禁止数字自动识别为电话号码
 ```
 <meta name="format-detection" content="telephone=no"> <!-- 禁止数字识自动别为电话号码 -->
 ```
 
-* 禁止自动自动识别地址
+#### 禁止自动自动识别地址
 ```
 <meta name="format-detection" content="address=no"> <!-- 禁止自动自动识别地址 -->
 ```
 
-* 禁止自动自动识别日期
+#### 禁止自动自动识别日期
 ```
 <meta name="format-detection" content="date=no">  <!-- 禁止自动自动识别日期 -->
 ```
 
-* 禁止自动自动识别 Email
+#### 禁止自动自动识别 Email
 ```
 <meta name="format-detection" content="email=no">  <!-- 禁止自动自动识别 Email -->
 ```
