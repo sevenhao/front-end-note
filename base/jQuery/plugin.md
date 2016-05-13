@@ -22,3 +22,5 @@
 
 * 多点触控插件
   * [11 个处理触摸事件和多点触摸的 JS 库](http://www.oschina.net/news/29936/11-multi-touch-and-touch-events-javascript-libraries)
+  
+  
