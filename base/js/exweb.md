@@ -19,4 +19,3 @@
 * js加密
     * [MD5、SHA1在线加密](http://www.yiten.net/baidumd5/Default.aspx) 
     * [cmd5](http://www.cmd5.com/)
-
