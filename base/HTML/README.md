@@ -53,7 +53,7 @@
 * `<h1>`和`</h1>`之间的内容描述标题
 * `<p>`和`</p>`之间的内容描述了段落
 
-## <a name="struct">头部内容</a> 
+## <a name="head">头部内容</a> 
 ```
 <head></head>
 ```
@@ -73,6 +73,8 @@
 <tr><td>style</td><td>定义了HTML文档的样式文件</td></tr>
 </tbody>
 </table>
+
+[meta标签详细介绍](https://github.com/sevenhao/front-end-note/blob/master/base/HTML/meta..md)
 
 ## <a name="tag">标签(也叫元素)</a>
 标签分为能包含标签内容和不能包含标签内容这两类。    
