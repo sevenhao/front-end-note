@@ -142,6 +142,24 @@ others</td>
 <meta name="author" content="作者名"/>
 ```
 
+### Refresh （刷新）
+说明：让网页多长时间（秒）刷新自己，或在多长时间后让网页自动链接到其它网页。
+用法：
+```
+<Meta http-equiv="Refresh" Content="30">
+<Meta http-equiv="Refresh" Content="5; Url=http://www.xia8.net">
+```
+注意：其中的5是指停留5秒钟后自动刷新到URL网址。
+
+
+### Copyright (版权)
+说明：标注版权转自环 球 网校edu24ol.com转自环 球 网校edu24ol.com转自环 球 网校edu24ol.com
+用法：
+```
+<Meta name="Copyright" Content="本页版权归Zerospace所有。All Rights Reserved">
+```
+
+
 ### viewport(移动设备)
 ```
 <meta name ="viewport" content ="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no"> <!-- `width=device-width` 会导致 iPhone 5 添加到主屏后以 WebApp 全屏模式打开页面时出现黑边 http://bigc.at/ios-webapp-viewport-meta.orz -->
@@ -155,6 +173,59 @@ content 参数：
 * user-scalable 是否允许用户缩放(yes/no)
 * minimal-ui iOS 7.1 beta 2 中新增属性（注意：iOS8 中已经删除），可以在页面加载时最小化上下状态栏。这是一个布尔值，可以直接这样写：`<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">`
 
-### 拓展阅读
-* [所有meta标签列表](http://code.lancepollard.com/complete-list-of-html-meta-tags/)
+
+### iOS 设备
+* 添加到主屏后的标题（iOS 6 新增）
+```
+<meta name="apple-mobile-web-app-title" content="标题"> <!-- 添加到主屏后的标题（iOS 6 新增） -->
+```
+
+* 是否启用 WebApp 全屏模式
+```
+<meta name="apple-mobile-web-app-capable" content="yes"> <!-- 是否启用 WebApp 全屏模式 -->
+```
+
+
+* 设置状态栏的背景颜色
+```
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"> <!-- 设置状态栏的背景颜色，只有在 `"apple-mobile-web-app-capable" content="yes"` 时生效 -->
+```
+<p>只有在 <code>"apple-mobile-web-app-capable" content="yes"</code> 时生效</p>
+<p>content 参数：</p>
+<ul>
+<li>
+<code>default</code> 默认值。</li>
+<li>
+<code>black</code> 状态栏背景是黑色。</li>
+<li>
+<code>black-translucent</code> 状态栏背景是黑色半透明。</li>
+</ul>
+<p>如果设置为 <code>default</code> 或 <code>black</code> ,网页内容从状态栏底部开始。</p>
+<p>如果设置为 <code>black-translucent</code> ,网页内容充满整个屏幕，顶部会被状态栏遮挡。</p>
+
+
+* 禁止数字自动识别为电话号码
+```
+<meta name="format-detection" content="telephone=no"> <!-- 禁止数字识自动别为电话号码 -->
+```
+
+* 禁止自动自动识别地址
+```
+<meta name="format-detection" content="address=no"> <!-- 禁止自动自动识别地址 -->
+```
+
+* 禁止自动自动识别日期
+```
+<meta name="format-detection" content="date=no">  <!-- 禁止自动自动识别日期 -->
+```
+
+* 禁止自动自动识别 Email
+```
+<meta name="format-detection" content="email=no">  <!-- 禁止自动自动识别 Email -->
+```
+
+
+
+### 更多介绍
+* [meta标签列表](http://code.lancepollard.com/complete-list-of-html-meta-tags/)
 * [常用的 HTML 头部标签](https://github.com/yisibl/blog/issues/1)
