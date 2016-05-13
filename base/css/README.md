@@ -134,6 +134,7 @@ body {background-image: url("images/back40.gif");}
 
 ##<a name="style">CSS样式</a>
 * [CSS样式](https://github.com/sevenhao/front-end-note/edit/master/base/css/cssstyle.md)
+* [CSS 常见样式示例](https://github.com/sevenhao/front-end-note/edit/master/base/css/cssexample.md)
 * [CSS 常见样式问题解决方法](https://github.com/sevenhao/front-end-note/edit/master/base/css/cssfaq.md)
 
 
