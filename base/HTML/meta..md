@@ -1,7 +1,12 @@
 # meta标签
 
+## 目录
+* [定义和用法](#what)
+* [常用标签](#common)
+
+
+## <a name="what">定义和用法</a>
 <div>
-<h2>定义和用法</h2>
 
 <p>&lt;meta&gt; 元素可提供有关页面的元信息（meta-information），比如针对搜索引擎和更新频度的描述和关键词,例如作者、日期和时间、网页描述、关键词、页面刷新等。</p>
 
@@ -56,39 +61,88 @@ others</td>
 </tbody>
 </table>
 
-## 声明文档使用的字符编码
+
+## <a name="common">常用标签</a>
+
+### 声明文档使用的字符编码
 ```
 <meta charset='utf-8'>
 ```
 
-## 用IE浏览页面时，让浏览器用本机上最新的IE渲染引擎
+### 用IE浏览页面时，让浏览器用本机上最新的IE渲染引擎
 ```
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 ```
 
-## 页面描述
+### 页面描述
 每个网页都应有一个不超过 150 个字符且能准确反映网页内容的描述标签。
 ```
 <meta name="description" content="描述内容" />
 ```
 
-## 页面关键词
+### 页面关键词
 ```
 <meta name="keywords" content="关键词1,关键词2"/>
 ```
 
-## 定义网页搜索引擎索引方式
+### 定义网页搜索引擎索引方式
 ```
 <meta name="robots" content="index,follow" />
 ```
+
+<div id="sectionSection0" class="seeAlsoNoToggleSection">
+					<p>在 <code>&lt;meta name="robots"&gt;</code> 标记中不正确地使用 
+    <strong>nofollow</strong>
+   或 
+    <strong>noindex</strong>
+   属性值可能会显著改变您的网站的搜索引擎结果。</p>
+					<p>
+						<code>&lt;meta name="robots"&gt;</code> 标记的其他有效属性值包括以下值：</p>
+					<ul><li>
+							<p>
+								
+    <strong>follow</strong>
+  &nbsp;&nbsp;&nbsp;跟踪链接并分析目标网页。这是默认行为，并且可忽略。</p>
+						</li><li>
+							<p>
+								
+    <strong>index</strong>
+  &nbsp;&nbsp;&nbsp;将网页编入索引。这是默认行为，并且可忽略。</p>
+						</li><li>
+							<p>
+								
+    <strong>noodp</strong>
+  &nbsp;&nbsp;&nbsp;不使用 Open Directory Project 来创建内容描述。</p>
+						</li><li>
+							<p>
+								
+    <strong>noydir</strong>
+  &nbsp;&nbsp;&nbsp;不使用 Yahoo Directory 来创建内容描述。</p>
+						</li><li>
+							<p>
+								
+    <strong>noarchive</strong>
+  &nbsp;&nbsp;&nbsp;不允许搜索引擎显示内容的缓存版本。</p>
+						</li><li>
+							<p>
+								
+    <strong>cache</strong>
+  &nbsp;&nbsp;&nbsp;允许搜索引擎显示内容的缓存版本。</p>
+						</li><li>
+							<p>
+								
+    <strong>nocache</strong>
+  &nbsp;&nbsp;&nbsp;不允许搜索引擎显示内容的缓存版本。</p>
+						</li></ul>
+				</div>
 详细描述见[这里](http://msdn.microsoft.com/zh-cn/library/ff724037%28v=expression.40%29.aspx)
 
-## 网页作者
+### 网页作者
 ```
 <meta name="author" content="作者名"/>
 ```
 
-## viewport(移动设备)
+### viewport(移动设备)
 ```
 <meta name ="viewport" content ="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no"> <!-- `width=device-width` 会导致 iPhone 5 添加到主屏后以 WebApp 全屏模式打开页面时出现黑边 http://bigc.at/ios-webapp-viewport-meta.orz -->
 ```
@@ -101,6 +155,6 @@ content 参数：
 * user-scalable 是否允许用户缩放(yes/no)
 * minimal-ui iOS 7.1 beta 2 中新增属性（注意：iOS8 中已经删除），可以在页面加载时最小化上下状态栏。这是一个布尔值，可以直接这样写：`<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">`
 
-## 拓展阅读
+### 拓展阅读
 * [所有meta标签列表](http://code.lancepollard.com/complete-list-of-html-meta-tags/)
 * [常用的 HTML 头部标签](https://github.com/yisibl/blog/issues/1)
