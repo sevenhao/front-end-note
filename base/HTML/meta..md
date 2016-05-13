@@ -1,4 +1,61 @@
 # meta标签
+
+<div>
+<h2>定义和用法</h2>
+
+<p>&lt;meta&gt; 元素可提供有关页面的元信息（meta-information），比如针对搜索引擎和更新频度的描述和关键词,例如作者、日期和时间、网页描述、关键词、页面刷新等。</p>
+
+<p>&lt;meta&gt; 标签位于文档的头部，不包含任何内容。&lt;meta&gt; 标签的属性定义了与文档相关联的名称/值对。</p>
+</div>
+
+<div>
+<h2>提示：</h2>
+
+<p><span></span>&lt;meta&gt; 标签永远位于 head 元素内部。</p>
+
+<p><span></span>元数据总是以名称/值的形式被成对传递的。</p>
+</div>
+
+<table>
+<tbody>
+<tr>
+<td>
+<em>属性</em>
+</td>
+<td><em>值</em></td>
+<td><em>描述</em></td>
+</tr>
+<tr>
+<td>content</td>
+<td>字符串</td>
+<td>定义与 http-equiv 或 name 属性相关的元信息，属性始终要和 name 属性或 http-equiv 属性一起使用</td>
+</tr>
+<tr>
+<td>http-equiv</td>
+<td>content-type、
+expires、
+refresh、
+set-cookie</td>
+<td>把 content 属性关联到 HTTP 头部</td>
+</tr>
+<tr>
+<td>name</td>
+<td>author、
+description、
+keywords、
+generator、
+revised、
+others</td>
+<td>把 content 属性关联到一个名称。</td>
+</tr>
+<tr>
+<td>scheme</td>
+<td>字符串</td>
+<td>指定要用来翻译属性值的方案。</td>
+</tr>
+</tbody>
+</table>
+
 ## 声明文档使用的字符编码
 ```
 <meta charset='utf-8'>
