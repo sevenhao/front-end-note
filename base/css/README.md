@@ -136,6 +136,7 @@ body {background-image: url("images/back40.gif");}
 * [CSS样式](https://github.com/sevenhao/front-end-note/edit/master/base/css/cssstyle.md)
 * [CSS 常见样式示例](https://github.com/sevenhao/front-end-note/edit/master/base/css/cssexample.md)
 * [CSS 常见样式问题解决方法](https://github.com/sevenhao/front-end-note/blob/master/base/css/cssfaq.md)
+* [transition与visibility延时隐藏]()
 
 
 ## <a name="reading">基础知识学习网站</a>
