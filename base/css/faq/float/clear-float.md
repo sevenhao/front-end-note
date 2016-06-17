@@ -419,4 +419,4 @@ BFC的特性：
 
 
 本文转自http://www.iyunlu.com/view/css-xhtml/55.html
-（怕以后找不到故部分改写并copy到自己的github，非常感谢原谅作者）
+（怕以后找不到故部分改写并copy到自己的github，非常感谢原文作者）
