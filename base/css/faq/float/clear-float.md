@@ -420,4 +420,10 @@ BFC的特性：
 
 本文转自http://www.iyunlu.com/view/css-xhtml/55.html
 （怕以后找不到故部分改写并copy到自己的github，非常感谢原文作者）
-参考http://www.zhangxinxu.com/wordpress/?p=621
+
+参考
+http://www.zhangxinxu.com/wordpress/?p=621
+
+[CSS float浮动的深入研究、详解及拓展(一)](http://www.zhangxinxu.com/wordpress/?p=583)
+
+[CSS float浮动的深入研究、详解及拓展(二)](http://www.zhangxinxu.com/wordpress/?p=594)
