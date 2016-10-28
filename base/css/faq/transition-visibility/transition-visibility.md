@@ -1,4 +1,4 @@
-#transition与visibility延时隐藏
+#transition与visibility 延时隐藏
 
 ## 目录
 * [transition与visibility介绍](#vercital1)
