@@ -1,16 +1,16 @@
 # Web前端各类资料网址收藏
 
-####[插件](https://github.com/sevenhao/front-end-note/tree/master/plugs)
-####[框架](https://github.com/sevenhao/front-end-note/tree/master/frame)
-####[博客](https://github.com/sevenhao/front-end-note/tree/master/blogs)
-###前端技术
-####[HTML](https://github.com/sevenhao/front-end-note/tree/master/base/HTML)
+#### [插件](https://github.com/sevenhao/front-end-note/tree/master/plugs)
+#### [框架](https://github.com/sevenhao/front-end-note/tree/master/frame)
+#### [博客](https://github.com/sevenhao/front-end-note/tree/master/blogs)
+### 前端技术
+#### [HTML](https://github.com/sevenhao/front-end-note/tree/master/base/HTML)
 
-####[HTML5](https://github.com/sevenhao/front-end-note/tree/master/base/HTML/HTML5)
+#### [HTML5](https://github.com/sevenhao/front-end-note/tree/master/base/HTML/HTML5)
 
-####[CSS](https://github.com/sevenhao/front-end-note/tree/master/base/css)
+#### [CSS](https://github.com/sevenhao/front-end-note/tree/master/base/css)
 
-####[JS](https://github.com/sevenhao/front-end-note/edit/master/base/js)
+#### [JS](https://github.com/sevenhao/front-end-note/edit/master/base/js)
 
 ##### [Jquery](https://github.com/sevenhao/front-end-note/edit/master/base/jQuery)
 
