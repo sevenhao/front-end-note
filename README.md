@@ -15,8 +15,8 @@
 ##### [Jquery](https://github.com/sevenhao/front-end-note/edit/master/base/jQuery)
 
 
-##技术网站
-###基础教程
+## 技术网站
+### 基础教程
 
 * [前端编码规范](http://www.css88.com/doc/codeguide/)
 * [w3school](http://www.w3school.com.cn/)   简单易懂的Web技术教程，可用于入门
@@ -26,12 +26,12 @@
 * [规范命名](http://www.imooc.com/article/1391)
 
 
-###Web标准
+### Web标准
 * [W3C规范](http://www.w3.org/standards/)  
 * [W3C规范——中文翻译](http://www.w3.org/html/ig/zh/wiki/%E7%BF%BB%E8%AF%91)   
 
 
-###各类资源
+### 各类资源
 * 免费CDN
   * [开放静态文件](http://staticfile.org/)  
   * [php中文手册](http://php.net/manual/zh/)
@@ -58,13 +58,13 @@
   * [JS函数式编程指南](https://www.gitbook.com/book/llh911001/mostly-adequate-guide-chinese/details)
 
 
-###优化
+### 优化
 * [移动H5前端性能优化指南](http://mp.weixin.qq.com/s?__biz=MTEwNTM0ODI0MQ==&mid=211118361&idx=1&sn=6fbd14cd905ffca677aa89d31a343eaa&scene=5#rd)
 * [移动时代的前端加密 ](http://div.io/topic/1220)
 * [浅淡HTML5移动Web开发](http://sc.chinaz.com/info/130410113358.htm)
 
 
-##在线工具
+## 在线工具
 * [图片处理工具——智图](http://zhitu.tencent.com/)  
 
 * 格式化
